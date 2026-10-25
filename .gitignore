@@ -1,0 +1,14 @@
+# 依赖与构建产物
+node_modules/
+frontend/node_modules/
+frontend/dist/
+backend/target/
+
+# 运行数据（含账号哈希，禁止入库）
+backend/data/
+*.log
+.cache-*.log
+
+# IDE
+.idea/
+.vscode/

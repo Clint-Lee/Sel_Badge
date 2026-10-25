@@ -1,0 +1,73 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: badge-auth-platform
+  profiles:
+    active: dev
+
+badge:
+  jwt:
+    # 开发环境允许内置默认值；生产（mysql profile）强制要求环境变量 BADGE_JWT_SECRET。
+    secret: ${BADGE_JWT_SECRET:BadgeAuthSuperSecureJWTSecretKeyWithMinimum256BitsLengthForProduction2026!}
+    access-token-expiration-ms: 7200000 # 2 hours
+    refresh-token-expiration-ms: 604800000 # 7 days
+  crypto:
+    master-key: ${BADGE_CRYPTO_MASTER_KEY:BadgeAuthPlatformSecureMasterKeyAES256@2026!!}
+  cors:
+    # 允许携带凭证的跨域来源（逗号分隔）。localhost 与 127.0.0.1 是不同源，两个都要登记。
+    # 生产按子域名配置，例如 https://www.example.com,https://game.example.com
+    allowed-origins: ${BADGE_CORS_ORIGINS:http://localhost:5173,http://127.0.0.1:5173,http://localhost:8080,http://127.0.0.1:8080}
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  datasource:
+    # Embedded persistent storage with MySQL compatibility mode for instant zero-dependency execution
+    url: jdbc:h2:file:./data/badge_auth_db;MODE=MySQL;DATABASE_TO_LOWER=TRUE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+---
+spring:
+  config:
+    activate:
+      on-profile: mysql
+  datasource:
+    # Production MySQL 8.0 connection
+    url: ${MYSQL_URL:jdbc:mysql://localhost:3306/badge_auth?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8mb4&allowPublicKeyRetrieval=true}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_PASSWORD:root}
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+# 生产 profile 下的密钥不再提供任何内置默认值：缺配置直接启动失败，
+# 绝不允许带着公开可知的签名密钥对公网服务。
+badge:
+  jwt:
+    secret: ${BADGE_JWT_SECRET}
+  crypto:
+    master-key: ${BADGE_CRYPTO_MASTER_KEY}
