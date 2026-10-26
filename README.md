@@ -1,6 +1,8 @@
 # BADGE AUTH · 全局统一认证与身份中心
 
-> 基于 **Kotlin + Java 17 + Spring Boot 3.3.4 + MySQL 8.0 + Spring Data JPA** 后端与 **React + Vite** 精致暗黑科技感前端的全栈单点登录 (SSO) 与多应用身份枢纽。
+> 基于 **Kotlin + Java 17 + Spring Boot 3**（H2 嵌入式库）后端与 **Vue 3 + Vite** 前端的全栈单点登录 (SSO) 与多应用身份枢纽。界面为暖纸底色的控制台式设计，支持桌面与 H5。
+
+> 📖 **接手任何设备前先读 [ECOSYSTEM.md](ECOSYSTEM.md)**——个人应用生态总览：各项目是什么、统一登录如何工作、每个项目用什么存储、数据库选型决策与升级触发器、上手清单。接入与部署环境变量见 [INTEGRATION.md](INTEGRATION.md)。
 
 ---
 
