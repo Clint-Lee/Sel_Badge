@@ -8,6 +8,8 @@
 
 ## 🌟 核心特性与安全标准
 
+新增门户模块：**AI工具**与**低价库**，支持工具搜索/收藏/收录审核、真实公开报价比较与个人黑名单。数据源、独立存储、配置及 API 说明见 [PORTAL.md](PORTAL.md)。
+
 1. **工业级身份三层存储模型**：
    - 核心全局主表 (`users`)：存储全局基础凭据（UID、用户名、邮箱、加密手机号、BCrypt 密码哈希）。
    - 注册应用表 (`app_clients`)：登记全部自研项目（平台主页、微服务中枢、在线小游戏、知识库等）。
@@ -38,12 +40,30 @@ cd d:\Extends\antigravityProj\Badge\backend
 > 后端服务运行于: `http://localhost:8080`  
 > 默认内置管理员账号：`admin` / `Admin@123456`
 
-### 2. 启动前端 (React + Vite)
+### 2. 启动前端 (Vue 3 + Vite)
 ```powershell
 cd d:\Extends\antigravityProj\Badge\frontend
+npm ci
 npm run dev
 ```
 > 前端访问地址: `http://localhost:5173`
+
+### 门户功能与本地验收（2026-10-28）
+
+- [主页](http://127.0.0.1:5173/) · [AI工具](http://127.0.0.1:5173/tools) · [低价库](http://127.0.0.1:5173/suppliers)。后端使用已有 `backend/data/badge_auth_db.mv.db`，门户数据独立存于 `backend/data/portal/`。
+- 前端通过 `/api` 开发代理连接 8080；报价在后端每 15 分钟同步，刷新页面读取已保存快照。完整数据范围见 [PORTAL.md](PORTAL.md)。
+- 已验证类型检查、前端构建、6 项前端测试、4 项后端集成测试及桌面/手机浏览器流程。
+- 独立运行后端：在 `backend/` 执行 `./mvnw.cmd -DskipTests package`，再执行 `java -jar target/badge-auth-platform-1.0.0.jar`。从后端目录启动，以保持原数据库相对路径。
+
+### 分支约定
+
+| 分支 | 内容 |
+| --- | --- |
+| `main` | 完整项目：前端、后端、部署及交接文档 |
+| `frontend` | 前端部署源码与公共文档 |
+| `backend` | 后端部署源码与公共文档 |
+
+本地完整开发使用 `main`；拆分部署分支的改动应与完整项目同步。
 
 ### 3. 一键切换生产环境 MySQL 8.0
 根目录已提供 `docker-compose.yml` 与 `schema.sql`：

@@ -24,7 +24,8 @@ class RateLimitFilter : OncePerRequestFilter() {
         "POST /api/auth/login" to Rule(limit = 10, windowMs = 5 * 60 * 1000L),
         "POST /api/auth/register" to Rule(limit = 5, windowMs = 60 * 60 * 1000L),
         "POST /api/auth/refresh" to Rule(limit = 30, windowMs = 5 * 60 * 1000L),
-        "POST /api/sso/token" to Rule(limit = 60, windowMs = 60 * 1000L)
+        "POST /api/sso/token" to Rule(limit = 60, windowMs = 60 * 1000L),
+        "POST /api/portal/submissions" to Rule(limit = 10, windowMs = 60 * 60 * 1000L)
     )
 
     private val hits = ConcurrentHashMap<String, ArrayDeque<Long>>()

@@ -77,3 +77,12 @@
 3. 西游 `saves/` 目录纳入持久化/备份；`.session-secret` 不要提交 Git。
 4. HTTPS：三家都用 `secure` Cookie 时必须全程 TLS；反代把 `X-Forwarded-For` 传给 Badge（审计与限流按真实 IP）。
 5. 首次登录 Badge 后立即改掉种子管理员密码（`admin / Admin@123456`）。
+
+## 六、AI工具与低价库门户（2026-10-28）
+
+- 页面：`/tools`、`/suppliers`；导航复用现有 Badge 登录，子应用 SSO 仍使用本文原有接口。
+- 本地运行：后端从 `backend/` 启动（8080），前端从 `frontend/` 执行 `npm ci`、`npm run dev`（5173）。本地首页、两个模块及公开数据接口已实测返回 HTTP 200。
+- 前端默认请求同源 `/api`，开发由 Vite 代理至 `http://127.0.0.1:8080`。生产 Web 服务须代理 `/api/` 至后端，并为前端路由配置 `index.html` 回退；跨域时配置 `VITE_API_BASE_URL` 及 `BADGE_CORS_ORIGINS`。
+- 门户目录、评价、申请、个人收藏及黑名单独立存于 `backend/data/portal/`；连同身份库一并备份。自定义目录使用 `BADGE_PORTAL_DATA_DIR`。
+- `BADGE_PORTAL_SYNC_ENABLED` 默认 `true`，后端约 20 秒后首次读取公开来源，每轮结束间隔 15 分钟同步。来源失败保留成功快照；范围见 [PORTAL.md](PORTAL.md)。
+- 代码以 `main` 完整项目为基准，`frontend`、`backend` 各自保持仅包含对应部署代码。
