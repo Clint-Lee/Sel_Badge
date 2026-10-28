@@ -16,6 +16,14 @@
         <span>应用画像</span>
       </router-link>
 
+      <div class="nav-group-label">发现</div>
+      <router-link to="/tools" class="side-link" :class="{ active: isActive('/tools') }" @click="navigate">
+        <Sparkles :size="16" stroke-width="1.9" /><span>AI工具</span>
+      </router-link>
+      <router-link to="/suppliers" class="side-link" :class="{ active: isActive('/suppliers') }" @click="navigate">
+        <Tags :size="16" stroke-width="1.9" /><span>低价库</span>
+      </router-link>
+
       <div class="nav-group-label">开发</div>
       <router-link to="/sso" class="side-link" :class="{ active: isActive('/sso') }" @click="navigate">
         <Terminal :size="16" stroke-width="1.9" />
@@ -55,7 +63,7 @@
 import { computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useAuth } from '../composables/useAuth';
-import { Plus, LogOut, LayoutGrid, IdCard, Terminal, BookOpen, Activity } from 'lucide-vue-next';
+import { Plus, LogOut, LayoutGrid, IdCard, Terminal, BookOpen, Activity, Sparkles, Tags } from 'lucide-vue-next';
 
 defineProps({
   open: { type: Boolean, default: false },

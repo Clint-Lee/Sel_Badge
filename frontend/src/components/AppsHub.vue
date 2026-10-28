@@ -16,6 +16,11 @@
       <button class="btn btn-secondary btn-sm" @click="$emit('request-login')">登录</button>
     </div>
 
+    <div class="discover-entries">
+      <router-link to="/tools"><span class="discover-entry-icon"><Sparkles :size="19" /></span><span><strong>AI工具</strong><small>发现、收藏适合你的创作与开发工具</small></span><ArrowUpRight :size="17" /></router-link>
+      <router-link to="/suppliers"><span class="discover-entry-icon"><ChartNoAxesCombined :size="19" /></span><span><strong>低价库</strong><small>选商品规格，比较公开报价与库存</small></span><ArrowUpRight :size="17" /></router-link>
+    </div>
+
     <div class="toolbar">
       <div class="chips">
         <button
@@ -110,7 +115,7 @@ import { useAuth } from '../composables/useAuth';
 import { api } from '../api/client';
 import {
   Search, SearchX, Loader2, ArrowRight, ExternalLink,
-  Globe, Gamepad2, Server, BookOpen, LayoutGrid,
+  Globe, Gamepad2, Server, BookOpen, LayoutGrid, Sparkles, ChartNoAxesCombined, ArrowUpRight,
 } from 'lucide-vue-next';
 
 defineEmits(['launch-sso', 'edit-profile', 'request-login']);
@@ -193,6 +198,15 @@ const categoryBadge = (cat) =>
 </script>
 
 <style scoped>
+.discover-entries { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 16px 0 22px; }
+.discover-entries > a { display: flex; align-items: center; gap: 12px; padding: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-m); transition: border-color .15s, box-shadow .15s; }
+.discover-entries > a:hover { border-color: var(--accent); box-shadow: var(--shadow-hover); }
+.discover-entry-icon { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 10px; color: var(--accent); background: var(--accent-tint); flex-shrink: 0; }
+.discover-entries > a > span:nth-child(2) { flex: 1; }
+.discover-entries strong { display: block; font-size: 14px; }
+.discover-entries small { display: block; font-size: 12px; color: var(--ink-3); margin-top: 3px; }
+.discover-entries > a > svg { color: var(--ink-3); flex-shrink: 0; }
+@media (max-width: 600px) { .discover-entries { grid-template-columns: 1fr; } }
 .head-stat { font-size: 13px; color: var(--ink-3); }
 
 .login-strip {

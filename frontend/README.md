@@ -1,16 +1,35 @@
-# React + Vite
+# Badge 门户前端
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+基于 Vue 3、Vite 和 Lucide，包含统一登录、应用入口、画像、安全动态、开发者控制台，以及 AI工具与低价库。新增模块使用 TypeScript，沿用暖灰、松绿设计系统。
 
-Currently, two official plugins are available:
+## 本地运行
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+需要 Node.js（本机验证版本 20.20.0）与 npm。先启动 Badge 后端，再在本目录运行：
 
-## React Compiler
+```powershell
+npm ci
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+入口：[主页](http://127.0.0.1:5173/) · [AI工具](http://127.0.0.1:5173/tools) · [低价库](http://127.0.0.1:5173/suppliers)。默认仅监听本机；开发请求 /api 代理到 http://127.0.0.1:8080。
 
-## Expanding the Oxlint configuration
+## 验证与构建
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```powershell
+npm run typecheck
+npm test
+npm run build
+```
+
+构建结果位于 dist/。2026-10-28 已通过类型检查、构建、6 项前端测试及桌面/手机浏览器验证。
+
+## 配置与部署
+
+| 变量 | 默认 | 用途 |
+| --- | --- | --- |
+| VITE_API_BASE_URL | /api | 构建时 API 地址，生产推荐同源代理 |
+| BADGE_API_TARGET | http://127.0.0.1:8080 | Vite 开发代理目标 |
+
+生产 Web 服务将 /api/ 代理至后端，其余页面回退 index.html。跨域时在后端配置 BADGE_CORS_ORIGINS。main 包含完整项目，frontend 分支只保留前端部署源码与公共文档。
+
+功能、真实报价覆盖、存储及接口说明见根目录 [PORTAL.md](../PORTAL.md)，SSO 与生产配置见 [INTEGRATION.md](../INTEGRATION.md)。

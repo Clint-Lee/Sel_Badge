@@ -1,6 +1,7 @@
 import { ref, computed } from 'vue';
 import { api, AUTH_EXPIRED_EVENT } from '../api/client';
 
+/** @type {import('vue').Ref<import('../model/auth').BadgeUser | null>} */
 const user = ref(null);
 const token = ref(localStorage.getItem('badge_auth_token'));
 const loading = ref(true);

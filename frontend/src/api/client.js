@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8080/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
 const TOKEN_KEY = 'badge_auth_token';
 const REFRESH_KEY = 'badge_auth_refresh';
 
@@ -36,7 +36,7 @@ async function doRefresh() {
 }
 
 /** 401 时用 refresh token 单飞续期一次，成功后重放原请求。 */
-async function request(endpoint, options = {}, allowRetry = true) {
+export async function request(endpoint, options = {}, allowRetry = true) {
   const token = localStorage.getItem(TOKEN_KEY);
   const headers = {
     'Content-Type': 'application/json',
