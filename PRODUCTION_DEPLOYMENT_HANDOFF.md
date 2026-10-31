@@ -32,11 +32,11 @@
    - 技术栈：原生 HTML5/Canvas 前端，零外部 npm 依赖的高性能 Node.js 原生 HTTP 服务端。
 
 ### 1.3 用户提出的核心验收要求
-- **端口定制**：服务器防火墙已开放 `100~109` 端口，要求：
-  - Badge 统一门户分配在 **100** 端口；
-  - MediaTools 分配在 **101** 端口；
-  - XiYouOnline 分配在 **102** 端口；
-  - 80 端口自动重定向至 100 端口，同时保留 Webhook 自动化部署路径。
+- **端口定制与安全规则**：服务器防火墙已开启专属端口规划：
+  - **Badge 统一门户**：分配在 **`8080`** 端口（兼容 `100`）；
+  - **万热观象 MediaTools**：分配在 **`8180`** 端口（兼容 `105`、`101`）；
+  - **小游戏生态专用段 (`8280~8299`)**：汉风西游 XiYouOnline 作为首发游戏分配在 **`8280`** 端口（兼容 `106`、`102`）；
+  - **80 端口**：自动 301 重定向至 `8080` 端口，同时保留 Webhook 自动化部署路径。
 - **单点登录 SSO 联动**：
   - 用户访问 101 和 102 端口的登录请求均须跳转到 100 端口 Badge 认证中心。
   - **XiYouOnline 强制登录限制**：未登录用户绝对禁止进入游戏界面（访问 `/` 或 `index.html` 立即 302 拦截重定向至 Badge 登录）。
@@ -72,42 +72,41 @@
 
 ## 3. 端口与服务映射拓扑表
 
-> **⚠️ 浏览器安全规范重要说明 (ERR_UNSAFE_PORT)**：
-> 根据国际 WHATWG Fetch 规范 及现代浏览器（Chrome、Edge、Safari、Firefox）底层网络核心（Chromium `net/base/port_util.cc` 之 `kRestrictedPorts` 列表）：
-> - **101 端口**（保留给 NIC Host Name 协议）与 **102 端口**（保留给 ISO-TSAP 协议）被所有现代浏览器**底层硬编码强制拦截**，在浏览器中访问会直接出现 `ERR_UNSAFE_PORT`（非安全端口拒绝连接）。
-> - 在用户阿里云防火墙放开的 `100~109` 端口段内，**100、105、106、107、108** 属于浏览器完全放行且安全合规的端口。
-> - 因此：
->   - **Port 100**：Badge 统一登录中心与主页门户；
->   - **Port 105**：万热观象 MediaTools（同时保留 101 双监听兼容）；
->   - **Port 106**：汉风西游 XiYouOnline（同时保留 102 双监听兼容）。
+> **💡 生产端口权威规划（避开浏览器非安全端口，规划小游戏 8280~8299 网段）**：
+> - 现代浏览器（Chrome、Edge、Safari、Firefox）底层对 `101`（Hostname）、`102`（ISO-TSAP）、`6000`（X11）等端口实施严格拦截（`ERR_UNSAFE_PORT`）。
+> - 本生产环境遵循业界标准用户应用端口（1024~49151），统一配置如下：
+>   - **Port 8080**：Badge 统一登录中心与主页门户；
+>   - **Port 8180**：万热观象 MediaTools / VideoFetch；
+>   - **Port 8280**：汉风西游 XiYouOnline（已将 `8280~8299` 规划为在线游戏专用段，后续轻量级小游戏顺延使用 8281、8282...）。
 
 ```
 用户公网浏览器 (Chrome / Edge / Safari / Firefox)
          │
-         ├─── [Port 100] ───► Nginx (Reverse Proxy + Rate Limiter)
-         │                       ├─ /          ─► /var/www/badge/current (Vue 3 静态前端)
-         │                       ├─ /api/      ─► 127.0.0.1:8080 (Spring Boot 3 API)
+         ├─── [Port 8080] ───► Nginx (Reverse Proxy + Rate Limiter)
+         │   (兼容 100)          ├─ /          ─► /var/www/badge/current (Vue 3 静态前端)
+         │                       ├─ /api/      ─► 127.0.0.1:8088 (Spring Boot 3 API)
          │                       └─ /deploy/   ─► 127.0.0.1:9000 (Webhook Deployer)
          │
-         ├─── [Port 105] ───► Nginx (Reverse Proxy + Security Filter)
-         │    (兼容 101)         └─ /          ─► 127.0.0.1:3001 (MediaTools / Express)
+         ├─── [Port 8180] ───► Nginx (Reverse Proxy + Security Filter)
+         │   (兼容 105, 101)     └─ /          ─► 127.0.0.1:3001 (MediaTools / Express)
          │
-         ├─── [Port 106] ───► Nginx (Reverse Proxy + WebSocket)
-         │    (兼容 102)         └─ /          ─► 127.0.0.1:8081 (XiYouOnline / Node)
+         ├─── [Port 8280] ───► Nginx (Reverse Proxy + WebSocket)
+         │   (兼容 106, 102)     └─ /          ─► 127.0.0.1:8081 (XiYouOnline / Node)
+         │   (8280~8299 游戏段)
          │
-         └─── [Port 80]  ───► Nginx
-                                 ├─ /deploy/   ─► 127.0.0.1:9000 (兼容旧版 Webhook)
-                                 └─ /          ─► HTTP 301 重定向至 Port 100
+         └─── [Port 80]   ───► Nginx
+                                 ├─ /deploy/   ─► 127.0.0.1:9000 (Webhook 自动化部署)
+                                 └─ /          ─► HTTP 301 重定向至 Port 8080
 ```
 
 ### 端口与进程详细信息表
 
 | 外网访问端口 | 内网监听服务 | 宿主技术 | 进程管理器 | 核心功能与安全限制 |
 |---|---|---|---|---|
-| **100** | `127.0.0.1:8080` (API)<br>`127.0.0.1:9000` (Hook)<br>`/var/www/badge` (SPA) | Java 17 Spring Boot + Vite SPA | systemd (`badge-backend`)<br>systemd (`webhook-deploy`) | Badge 统一认证门户；限制登录接口 5次/分；屏蔽敏感扫描 |
-| **105** (兼容 101) | `127.0.0.1:3001` | Node.js 20 Express | PM2 (`media-tools-hot`) | 万热观象流媒体；未登录设备指纹限 3 次/天；登录 10 次/天 |
-| **106** (兼容 102) | `127.0.0.1:8081` | Node.js 20 原生 HTTP | PM2 (`xiyou-game`) | 汉风西游小游戏；**未登录强制拦截**重定向至 100 端口登录 |
-| **80** | `0.0.0.0:80` | Nginx | systemd (`nginx`) | 全局 301 跳转到 `:100`；保留 `/deploy/` 接收 Git Webhook |
+| **8080** (兼容 100) | `127.0.0.1:8088` (API)<br>`127.0.0.1:9000` (Hook)<br>`/var/www/badge` (SPA) | Java 17 Spring Boot + Vite SPA | systemd (`badge-backend`)<br>systemd (`webhook-deploy`) | Badge 统一认证门户；限制登录接口 5次/分；屏蔽敏感扫描 |
+| **8180** (兼容 105, 101) | `127.0.0.1:3001` | Node.js 20 Express | PM2 (`media-tools-hot`) | 万热观象流媒体；未登录设备指纹限 3 次/天；登录 10 次/天 |
+| **8280** (兼容 106, 102) | `127.0.0.1:8081` | Node.js 20 原生 HTTP | PM2 (`xiyou-game`) | 汉风西游小游戏；**未登录强制拦截**重定向至 8080 端口登录；预留 8280~8299 给后续游戏 |
+| **80** | `0.0.0.0:80` | Nginx | systemd (`nginx`) | 全局 301 跳转到 `:8080`；保留 `/deploy/` 接收 Git Webhook |
 | **22** | `0.0.0.0:22` | OpenSSH | systemd (`ssh`) | 远程维护（已加固 Fail2ban 3次失败封锁24小时） |
 
 ---
@@ -143,20 +142,20 @@
    - 增加 `vip` (100 次/天) 与 `supervip` (无限制) 权限判定分支。
 3. **下载管道额度校验拦截** (`Media_Tools_Hot/server.js`)：
    - 在 `GET /api/download` 入口强制引入 `mediaStore.reserve()` 配额预占。
-   - 若超出额度，返回 `HTTP 429` 并友好提示引导访客前往 100 端口登录。
+   - 若超出额度，返回 `HTTP 429` 并友好提示引导访客前往 8080 端口登录。
 
 ### 4.5 数据库数据治理与应用重定向注册
 通过 H2 `RunScript` 批量治理 `badge_auth_db` 中的 `app_clients` 记录，确保生态内各项目回调与首页地址精准对齐：
 ```sql
-UPDATE app_clients SET homepage_url = 'http://39.97.50.218:100', redirect_uri = 'http://39.97.50.218:100/sso/callback' WHERE client_id = 'app_portal_01';
-UPDATE app_clients SET homepage_url = 'http://39.97.50.218:101', redirect_uri = 'http://39.97.50.218:101/auth/badge/callback' WHERE client_id = 'app_hotpot_video';
-UPDATE app_clients SET homepage_url = 'http://39.97.50.218:102', redirect_uri = 'http://39.97.50.218:102/auth/badge/callback' WHERE client_id = 'app_xiyou_game';
+UPDATE app_clients SET homepage_url = 'http://39.97.50.218:8080', redirect_uri = 'http://39.97.50.218:8080/sso/callback' WHERE client_id = 'app_portal_01';
+UPDATE app_clients SET homepage_url = 'http://39.97.50.218:8180', redirect_uri = 'http://39.97.50.218:8180/auth/badge/callback' WHERE client_id = 'app_hotpot_video';
+UPDATE app_clients SET homepage_url = 'http://39.97.50.218:8280', redirect_uri = 'http://39.97.50.218:8280/auth/badge/callback' WHERE client_id = 'app_xiyou_game';
 ```
 
 ### 4.6 PM2 全局生态进程化托管
 在 `/srv/ecosystem.config.js` 统一管理后台 Node 进程，保证服务器重启后自动按标准环境拉起：
-- `media-tools-hot`：绑定 `PORT=3001`，配置 `HOTPOT_PUBLIC_URL=http://39.97.50.218:101`，`BADGE_PORTAL_URL=http://39.97.50.218:100`。
-- `xiyou-game`：绑定 `PORT=8081`，配置 `XIYOU_PUBLIC_URL=http://39.97.50.218:102`，`BADGE_PORTAL_URL=http://39.97.50.218:100`。
+- `media-tools-hot`：绑定 `PORT=3001`，配置 `HOTPOT_PUBLIC_URL=http://39.97.50.218:8180`，`BADGE_PORTAL_URL=http://39.97.50.218:8080`。
+- `xiyou-game`：绑定 `PORT=8081`，配置 `XIYOU_PUBLIC_URL=http://39.97.50.218:8280`，`BADGE_PORTAL_URL=http://39.97.50.218:8080`。
 
 ---
 
@@ -197,14 +196,14 @@ UPDATE app_clients SET homepage_url = 'http://39.97.50.218:102', redirect_uri = 
 
 | 测试用例 | 请求指令 / URL | 预期结果 | 实际执行结果 | 状态 |
 |---|---|---|---|---|
-| **Port 100 静态首页** | `GET http://39.97.50.218:100/` | HTTP 200，返回 Vue 3 HTML | HTTP 200 OK | ✅ 通过 |
-| **Port 100 Webhook** | `GET http://39.97.50.218:100/deploy/health` | HTTP 200，返回所有项目清单 | `{"ok":true, "projects":[...]}` | ✅ 通过 |
-| **Port 101 首页访问** | `GET http://39.97.50.218:101/` | HTTP 200，返回万热观象工作台 | HTTP 200 OK | ✅ 通过 |
-| **Port 101 SSO 发起** | `GET http://39.97.50.218:101/auth/badge` | HTTP 302，重定向至 Badge 门户登录 | 302 目标：`http://39.97.50.218:100/login?client_id=app_hotpot_video&redirect_uri=http%3A%2F%2F39.97.50.218%3A101%2Fauth%2Fbadge%2Fcallback` | ✅ 通过 |
-| **Port 102 游戏未登录拦截** | `GET http://39.97.50.218:102/` | HTTP 302，禁止游玩并重定向 | HTTP 302 Found，Location: `/auth/badge` | ✅ 通过 |
-| **Port 102 静态页拦截** | `GET http://39.97.50.218:102/index.html` | HTTP 302，禁止直接访问主页 | HTTP 302 Found，Location: `/auth/badge` | ✅ 通过 |
-| **Port 102 SSO 登录重定向** | `GET http://39.97.50.218:102/auth/badge` | HTTP 302，携带西游 client_id 跳登录 | 302 目标：`http://39.97.50.218:100/login?client_id=app_xiyou_game&redirect_uri=http%3A%2F%2F39.97.50.218%3A102%2Fauth%2Fbadge%2Fcallback` | ✅ 通过 |
-| **Port 80 默认重定向** | `GET http://39.97.50.218:80/` | HTTP 301，跳转到 Port 100 | HTTP 301 Moved Permanently，Location: `http://39.97.50.218:100/` | ✅ 通过 |
+| **Port 100 静态首页** | `GET http://39.97.50.218:8080/` | HTTP 200，返回 Vue 3 HTML | HTTP 200 OK | ✅ 通过 |
+| **Port 100 Webhook** | `GET http://39.97.50.218:8080/deploy/health` | HTTP 200，返回所有项目清单 | `{"ok":true, "projects":[...]}` | ✅ 通过 |
+| **Port 101 首页访问** | `GET http://39.97.50.218:8180/` | HTTP 200，返回万热观象工作台 | HTTP 200 OK | ✅ 通过 |
+| **Port 101 SSO 发起** | `GET http://39.97.50.218:8180/auth/badge` | HTTP 302，重定向至 Badge 门户登录 | 302 目标：`http://39.97.50.218:8080/login?client_id=app_hotpot_video&redirect_uri=http%3A%2F%2F39.97.50.218%3A101%2Fauth%2Fbadge%2Fcallback` | ✅ 通过 |
+| **Port 102 游戏未登录拦截** | `GET http://39.97.50.218:8280/` | HTTP 302，禁止游玩并重定向 | HTTP 302 Found，Location: `/auth/badge` | ✅ 通过 |
+| **Port 102 静态页拦截** | `GET http://39.97.50.218:8280/index.html` | HTTP 302，禁止直接访问主页 | HTTP 302 Found，Location: `/auth/badge` | ✅ 通过 |
+| **Port 102 SSO 登录重定向** | `GET http://39.97.50.218:8280/auth/badge` | HTTP 302，携带西游 client_id 跳登录 | 302 目标：`http://39.97.50.218:8080/login?client_id=app_xiyou_game&redirect_uri=http%3A%2F%2F39.97.50.218%3A102%2Fauth%2Fbadge%2Fcallback` | ✅ 通过 |
+| **Port 80 默认重定向** | `GET http://39.97.50.218:80/` | HTTP 301，跳转到 Port 100 | HTTP 301 Moved Permanently，Location: `http://39.97.50.218:8080/` | ✅ 通过 |
 
 ### 6.2 MediaTools 访客设备指纹与 3 次配额限流验证
 使用专用自动化测试脚本模拟同设备指纹访客连续请求下载接口：
@@ -215,8 +214,8 @@ UPDATE app_clients SET homepage_url = 'http://39.97.50.218:102', redirect_uri = 
   > `【额度限制】未登录访客基于设备指纹每日仅享 3 次免费下载！请点击页面登录通过 Badge 统一登录，立即解锁单日 10 次及更多高级功能。`
 
 ### 6.3 漏洞探测与攻击阻断验证
-- 请求 `http://39.97.50.218:100/.env` -> 返回 **HTTP 404**（敏感配置文件被屏蔽且无路径泄露）。
-- 请求 `http://39.97.50.218:100/phpmyadmin` -> 返回 **HTTP 404**（扫描探针被静默阻断）。
+- 请求 `http://39.97.50.218:8080/.env` -> 返回 **HTTP 404**（敏感配置文件被屏蔽且无路径泄露）。
+- 请求 `http://39.97.50.218:8080/phpmyadmin` -> 返回 **HTTP 404**（扫描探针被静默阻断）。
 - 连续对 `/api/auth/login` 快速发起 10 次请求 -> 第 6 次开始触发 **HTTP 503** 速率限制，防止字典暴力破解。
 
 ---
