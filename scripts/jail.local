@@ -12,7 +12,7 @@ bantime = 24h
 
 [nginx-limit-req]
 enabled = true
-port = http,https,100,101,102
+port = http,https,100,101,102,105,106
 filter = nginx-limit-req
 logpath = /var/log/nginx/error.log
 findtime = 10m
@@ -21,7 +21,7 @@ bantime = 2h
 
 [nginx-botsearch]
 enabled = true
-port = http,https,100,101,102
+port = http,https,100,101,102,105,106
 filter = nginx-botsearch
 logpath = /var/log/nginx/access.log
 maxretry = 2

@@ -21,12 +21,12 @@ print("Using H2 jar:", h2_jar)
 
 sql = """
 UPDATE app_clients SET homepage_url = 'http://39.97.50.218:100', redirect_uri = 'http://39.97.50.218:100/sso/callback' WHERE client_id = 'app_portal_01';
-UPDATE app_clients SET homepage_url = 'http://39.97.50.218:101', redirect_uri = 'http://39.97.50.218:101/auth/badge/callback' WHERE client_id = 'app_hotpot_video';
-UPDATE app_clients SET homepage_url = 'http://39.97.50.218:102', redirect_uri = 'http://39.97.50.218:102/auth/badge/callback' WHERE client_id = 'app_xiyou_game';
+UPDATE app_clients SET homepage_url = 'http://39.97.50.218:105', redirect_uri = 'http://39.97.50.218:105/auth/badge/callback' WHERE client_id = 'app_hotpot_video';
+UPDATE app_clients SET homepage_url = 'http://39.97.50.218:106', redirect_uri = 'http://39.97.50.218:106/auth/badge/callback' WHERE client_id = 'app_xiyou_game';
 SELECT client_id, app_name, homepage_url, redirect_uri FROM app_clients;
 """
 
-with open('/tmp/update_100_102.sql', 'w', encoding='utf-8') as f:
+with open('/tmp/update_105_106.sql', 'w', encoding='utf-8') as f:
     f.write(sql)
 
 print("Stopping badge-backend...")
@@ -38,7 +38,7 @@ res = subprocess.run([
     'org.h2.tools.RunScript',
     '-url', 'jdbc:h2:file:/srv/repo/Sel_Badge/backend/data/badge_auth_db;MODE=MySQL;DATABASE_TO_LOWER=TRUE',
     '-user', 'sa',
-    '-script', '/tmp/update_100_102.sql',
+    '-script', '/tmp/update_105_106.sql',
     '-showResults'
 ], capture_output=True, text=True)
 

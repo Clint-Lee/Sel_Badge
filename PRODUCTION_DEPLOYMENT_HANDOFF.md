@@ -72,19 +72,28 @@
 
 ## 3. 端口与服务映射拓扑表
 
+> **⚠️ 浏览器安全规范重要说明 (ERR_UNSAFE_PORT)**：
+> 根据国际 WHATWG Fetch 规范 及现代浏览器（Chrome、Edge、Safari、Firefox）底层网络核心（Chromium `net/base/port_util.cc` 之 `kRestrictedPorts` 列表）：
+> - **101 端口**（保留给 NIC Host Name 协议）与 **102 端口**（保留给 ISO-TSAP 协议）被所有现代浏览器**底层硬编码强制拦截**，在浏览器中访问会直接出现 `ERR_UNSAFE_PORT`（非安全端口拒绝连接）。
+> - 在用户阿里云防火墙放开的 `100~109` 端口段内，**100、105、106、107、108** 属于浏览器完全放行且安全合规的端口。
+> - 因此：
+>   - **Port 100**：Badge 统一登录中心与主页门户；
+>   - **Port 105**：万热观象 MediaTools（同时保留 101 双监听兼容）；
+>   - **Port 106**：汉风西游 XiYouOnline（同时保留 102 双监听兼容）。
+
 ```
-用户公网浏览器 (Client)
+用户公网浏览器 (Chrome / Edge / Safari / Firefox)
          │
          ├─── [Port 100] ───► Nginx (Reverse Proxy + Rate Limiter)
          │                       ├─ /          ─► /var/www/badge/current (Vue 3 静态前端)
          │                       ├─ /api/      ─► 127.0.0.1:8080 (Spring Boot 3 API)
          │                       └─ /deploy/   ─► 127.0.0.1:9000 (Webhook Deployer)
          │
-         ├─── [Port 101] ───► Nginx (Reverse Proxy + Security Filter)
-         │                       └─ /          ─► 127.0.0.1:3001 (MediaTools / Express)
+         ├─── [Port 105] ───► Nginx (Reverse Proxy + Security Filter)
+         │    (兼容 101)         └─ /          ─► 127.0.0.1:3001 (MediaTools / Express)
          │
-         ├─── [Port 102] ───► Nginx (Reverse Proxy + WebSocket)
-         │                       └─ /          ─► 127.0.0.1:8081 (XiYouOnline / Node)
+         ├─── [Port 106] ───► Nginx (Reverse Proxy + WebSocket)
+         │    (兼容 102)         └─ /          ─► 127.0.0.1:8081 (XiYouOnline / Node)
          │
          └─── [Port 80]  ───► Nginx
                                  ├─ /deploy/   ─► 127.0.0.1:9000 (兼容旧版 Webhook)
@@ -93,11 +102,11 @@
 
 ### 端口与进程详细信息表
 
-| 外网端口 | 内网监听服务 | 宿主技术 | 进程管理器 | 核心功能与安全限制 |
+| 外网访问端口 | 内网监听服务 | 宿主技术 | 进程管理器 | 核心功能与安全限制 |
 |---|---|---|---|---|
 | **100** | `127.0.0.1:8080` (API)<br>`127.0.0.1:9000` (Hook)<br>`/var/www/badge` (SPA) | Java 17 Spring Boot + Vite SPA | systemd (`badge-backend`)<br>systemd (`webhook-deploy`) | Badge 统一认证门户；限制登录接口 5次/分；屏蔽敏感扫描 |
-| **101** | `127.0.0.1:3001` | Node.js 20 Express | PM2 (`media-tools-hot`) | 万热观象流媒体；未登录设备指纹限 3 次/天；登录 10 次/天 |
-| **102** | `127.0.0.1:8081` | Node.js 20 原生 HTTP | PM2 (`xiyou-game`) | 汉风西游小游戏；**未登录强制拦截**重定向至 100 端口登录 |
+| **105** (兼容 101) | `127.0.0.1:3001` | Node.js 20 Express | PM2 (`media-tools-hot`) | 万热观象流媒体；未登录设备指纹限 3 次/天；登录 10 次/天 |
+| **106** (兼容 102) | `127.0.0.1:8081` | Node.js 20 原生 HTTP | PM2 (`xiyou-game`) | 汉风西游小游戏；**未登录强制拦截**重定向至 100 端口登录 |
 | **80** | `0.0.0.0:80` | Nginx | systemd (`nginx`) | 全局 301 跳转到 `:100`；保留 `/deploy/` 接收 Git Webhook |
 | **22** | `0.0.0.0:22` | OpenSSH | systemd (`ssh`) | 远程维护（已加固 Fail2ban 3次失败封锁24小时） |
 
@@ -284,3 +293,4 @@ systemctl restart webhook-deploy
 > 2. 当前对外服务端口已由用户防火墙严格指定为：**100 (Badge)**、**101 (MediaTools)**、**102 (XiYouOnline)**。修改任何端口或路由前务必同步更新 Nginx 配置、H2 数据库的 `app_clients` 表以及各应用的 `.env`。
 > 3. XiYouOnline 服务端 (`server.js`) 包含强制登录门禁，用户在未通过 Badge 登录并取得有效 Session 前不得暴露游戏主画面。
 > 4. MediaTools 下载接口基于设备指纹与 Token 限制访客每日 3 次，普通用户 10 次，此业务逻辑已在 `lib/guest-access.js` 和 `server.js` 固化，请在后续迭代中妥善保持该约束。
+

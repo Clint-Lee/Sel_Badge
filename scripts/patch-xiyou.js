@@ -27,3 +27,4 @@ if (content.includes(targetStr)) {
 
 fs.writeFileSync(serverFile, content, 'utf8');
 console.log('XiYouOnline server.js login gate added successfully');
+

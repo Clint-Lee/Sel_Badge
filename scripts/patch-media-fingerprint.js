@@ -139,3 +139,4 @@ if (serverContent.includes(targetDownloadFinish.replace(/\n/g, '\r\n'))) {
 
 fs.writeFileSync(serverPath, serverContent, 'utf8');
 console.log('server.js patched successfully (Download quota check added)');
+
