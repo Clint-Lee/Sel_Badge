@@ -1,0 +1,4129 @@
+{
+  "updatedAt": "2026-10-29T14:51:08.247Z",
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI 工具",
+      "description": "探索人工智能助手、搜索与创作工具",
+      "count": 20
+    },
+    {
+      "id": "design",
+      "name": "设计灵感",
+      "description": "专业设计、原型与优质视觉资源",
+      "count": 1
+    },
+    {
+      "id": "productivity",
+      "name": "效率办公",
+      "description": "知识管理、协作与日常生产力",
+      "count": 2
+    },
+    {
+      "id": "resources",
+      "name": "精选资源",
+      "description": "开放知识、图片与实用素材",
+      "count": 12
+    },
+    {
+      "id": "reading",
+      "name": "阅读学习",
+      "description": "深度阅读、课程与持续学习",
+      "count": 3
+    },
+    {
+      "id": "gpt-tools",
+      "name": "GPT工具导航",
+      "description": "发现 GPT 应用、提示词与辅助工具",
+      "count": 11
+    },
+    {
+      "id": "api-relays",
+      "name": "中转站导航",
+      "description": "浏览模型 API 中转与接口服务",
+      "count": 2
+    },
+    {
+      "id": "digital-cards",
+      "name": "卡网导航",
+      "description": "浏览数字卡券与自动发货平台",
+      "count": 20
+    },
+    {
+      "id": "sms-services",
+      "name": "短信服务",
+      "description": "浏览短信相关服务平台",
+      "count": 7
+    },
+    {
+      "id": "ai-models",
+      "name": "AI模型官网",
+      "description": "主要官方模型、助手与开发平台入口；第一批广覆盖，非全网全量。",
+      "count": 7
+    },
+    {
+      "id": "mail-services",
+      "name": "邮箱服务",
+      "description": "临时邮箱与验证码收件类工具入口",
+      "count": 5
+    },
+    {
+      "id": "reverse",
+      "name": "逆向工程",
+      "description": "安全研究、逆向工具与中文技术社区",
+      "count": 7
+    },
+    {
+      "id": "ai-deals",
+      "name": "AI羊毛福利",
+      "description": "免费额度、免费模型与福利信息聚合",
+      "count": 4
+    },
+    {
+      "id": "intl",
+      "name": "国外知名",
+      "description": "海外主流平台、社区与常用服务入口",
+      "count": 3
+    },
+    {
+      "id": "qq-groups",
+      "name": "QQ群",
+      "description": "QQ 交流群与频道入口收录",
+      "count": 9
+    },
+    {
+      "id": "ip-services",
+      "name": "IP与代理",
+      "description": "动态 IP、住宅 IP、代理与网络服务入口",
+      "count": 1
+    },
+    {
+      "id": "blog",
+      "name": "博客",
+      "description": "GitHub 开源项目、部署方法、使用教程与技术文章",
+      "count": 13
+    },
+    {
+      "id": "upi-zone",
+      "name": "UPI专区",
+      "description": "UPI 提链、扫码与 CDK 购买入口",
+      "count": 17
+    },
+    {
+      "id": "virtual-cards",
+      "name": "虚拟卡台",
+      "description": "虚拟银行卡平台与开户条件。分个人及企业卡，GPT适用性按官方说明标注，不保证订阅支付成功。",
+      "count": 24
+    },
+    {
+      "id": "skills",
+      "name": "Skills",
+      "description": "热门Agent Skills、官方技能库及技能发现安装工具，覆盖编程、设计、文档和自动化。",
+      "count": 18
+    },
+    {
+      "id": "ai-video",
+      "name": "AI视频",
+      "description": "文字生成视频、图片转视频、数字人视频与 AI 视频创作平台",
+      "count": 22
+    }
+  ],
+  "sites": [
+    {
+      "id": "3e679530-f51f-4d6e-895a-5d53bca8bd90",
+      "name": "codex 短效接码 美国实卡",
+      "url": "https://www.16688.com.cn/goods/G78185276",
+      "description": "codex 短效接🐎未接到可换号 包接马成功100% 不限次数1-5次必成功 美国实卡codex 单次接马plus（销量可查可售后可退款）",
+      "category": "sms-services",
+      "tags": [
+        "codex接码",
+        "美国实卡",
+        "短效接码"
+      ],
+      "featured": true,
+      "visits": 264,
+      "todayClicks": 1,
+      "createdAt": "2026-09-29T13:47:38.886Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "b03b8d91-a096-46f3-8a41-2822e7a1d9ff",
+      "name": "皮蛋扫码 · 提交任务",
+      "url": "https://masi.cc.cd/extract#submit",
+      "description": "UPI 扫码任务提交入口，提供在线员工、待接单、已接单和今日成功实时状态。",
+      "category": "upi-zone",
+      "tags": [
+        "皮蛋扫码",
+        "UPI",
+        "实时状态"
+      ],
+      "featured": true,
+      "visits": 579,
+      "todayClicks": 4,
+      "createdAt": "2026-09-29T11:52:12.899Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "c69f26c8-22b2-4382-a5db-043ec85936a1",
+      "name": "鸡哥【公益UPI提链】",
+      "url": "https://dasaobi.online/upi/",
+      "description": "UPI公益提链",
+      "category": "upi-zone",
+      "tags": [
+        "UPI提链",
+        "鸡哥"
+      ],
+      "featured": true,
+      "visits": 746,
+      "todayClicks": 18,
+      "createdAt": "2026-09-28T15:09:36.198Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "b41cf487-fce0-4c26-b6a7-91c40b266868",
+      "name": "【流光提链】Lumen Flow",
+      "url": "https://int31.space/public/checkout",
+      "description": "提交和跟踪独立结账流程的入口。",
+      "category": "upi-zone",
+      "tags": [],
+      "featured": true,
+      "visits": 733,
+      "todayClicks": 13,
+      "createdAt": "2026-09-28T10:40:15.658Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "02648f41-b79c-4708-9454-509c41d7a993",
+      "name": "Excalidraw",
+      "url": "https://excalidraw.com/",
+      "description": "轻量手绘风白板，用于图解想法与协作讨论。",
+      "category": "productivity",
+      "tags": [
+        "白板",
+        "协作"
+      ],
+      "featured": true,
+      "visits": 10,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "17137903-291e-4211-b9e5-c3f274578299",
+      "name": "低价库",
+      "url": "https://www.700sb.com/suppliers",
+      "description": "本站AI商品比价库，汇总PickAI与PriceAI公开报价，同类同规格商品集中比较商家价格、库存及采集时间，每15分钟同步。默认隐藏无库存和疑似异常报价，支持商品筛选、个人链接与关键词黑名单，并可申请只读API对接。点击店铺可查看原始商品页面；最终价格、规格与售后以商家说明为准。",
+      "category": "resources",
+      "tags": [
+        "低价库",
+        "资源库",
+        "货源查询"
+      ],
+      "featured": true,
+      "visits": 776,
+      "todayClicks": 13,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "1cdc23ab-6ba9-4123-bb6a-063daf9b06e1",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/",
+      "description": "用于写作、编程与知识探索的 AI 助手。",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "对话"
+      ],
+      "featured": true,
+      "visits": 278,
+      "todayClicks": 2,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "c7551cad-ae28-4dbc-8ed7-c4d695ae2eef",
+      "name": "Claude",
+      "url": "https://claude.ai/",
+      "description": "擅长长文理解、写作与编程的 AI 助手。",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "写作"
+      ],
+      "featured": true,
+      "visits": 134,
+      "todayClicks": 3,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "ef3ef651-b230-48bf-ae08-c2ddae7405d4",
+      "name": "shadcn/ui",
+      "url": "https://ui.shadcn.com/",
+      "description": "可组合、可定制的 React 界面组件集合。",
+      "category": "resources",
+      "tags": [
+        "React",
+        "组件"
+      ],
+      "featured": true,
+      "visits": 76,
+      "todayClicks": 1,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "f656f994-89d6-47a8-9c39-d4acf10e40dd",
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com/",
+      "description": "支持中文对话、推理与代码辅助的 AI 服务。",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "推理"
+      ],
+      "featured": true,
+      "visits": 57,
+      "todayClicks": 1,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "fbca3694-c643-4b84-ab22-3205a3b264dc",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "description": "托管代码、参与开源与开展团队工程协作。",
+      "category": "resources",
+      "tags": [
+        "开源",
+        "代码"
+      ],
+      "featured": true,
+      "visits": 28,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "676c815b-8b6d-4f2b-9622-a58abf50ff37",
+      "name": "小黑的plus普拉达商店",
+      "url": "https://wzyp.cn/shop/JN9T2HB6",
+      "description": "低价Plus日抛 源头直出",
+      "category": "digital-cards",
+      "tags": [],
+      "featured": false,
+      "visits": 3,
+      "todayClicks": 3,
+      "createdAt": "2026-10-29T02:34:06.290Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "ef43081d-92e1-4ecf-bb54-7efafe141017",
+      "name": "忆のAI",
+      "url": "https://www.yicode.ai/",
+      "description": "0.1倍满血国产模型，满血不降质 GPT，ccmax,也有国产破甲模型",
+      "category": "api-relays",
+      "tags": [],
+      "featured": false,
+      "visits": 10,
+      "todayClicks": 2,
+      "createdAt": "2026-10-27T05:50:05.037Z",
+      "sponsorPinUntil": null,
+      "relayOffer": {
+        "amountCents": 500,
+        "claimInstructions": "前五名通过gpt700.com注册的领取5刀额度，后面的统一领1刀试用额度。领取方式：添加我qq发送你的用户名，并备注来自700，手动给你添加（防止机器人薅羊毛）。"
+      },
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "2203f60f-2b39-4118-9d13-1f204f2b55dc",
+      "name": "Dreamina",
+      "url": "https://dreamina.capcut.com/seedance/seedance-2-5",
+      "description": "Dreamina 国际版 Seedance 2.5 视频创作入口。官网介绍每日免费积分体验，未公开固定生成次数；模型权限、额度及地区可用性以登录后页面为准，非无限免费。",
+      "category": "ai-video",
+      "tags": [
+        "Seedance 2.5",
+        "免费额度",
+        "每日积分",
+        "视频生成"
+      ],
+      "featured": false,
+      "visits": 1,
+      "todayClicks": 0,
+      "createdAt": "2026-10-27T04:23:42.784752+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "f892d454-356f-4d9a-813f-8c7e6d92b58b",
+      "name": "SeeGen AI",
+      "url": "https://seegen.ai/seedance-2-5",
+      "description": "Seedance 2.5 视频生成。官网免费档要求注册并加入Discord领取200积分；选择480p、5秒、不加参考视频时公开报价150积分，够体验1条；默认720p报价300积分不够。以实际领取额度和生成前报价为准。",
+      "category": "ai-video",
+      "tags": [
+        "Seedance 2.5",
+        "免费试用",
+        "注册赠积分",
+        "视频生成"
+      ],
+      "featured": false,
+      "visits": 1,
+      "todayClicks": 1,
+      "createdAt": "2026-10-27T04:23:42.784577+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "91416cc9-870b-4713-92ae-1fbaca1f9df7",
+      "name": "Seedance Studio",
+      "url": "https://tryseedance.ai/",
+      "description": "Seedance 2.5 视频创作。官网免费计划每月160积分，标注最多3条480p视频，带水印且无需绑卡；次数随模型、时长和参数变化，不是每月3条任意规格视频。",
+      "category": "ai-video",
+      "tags": [
+        "Seedance 2.5",
+        "免费额度",
+        "每月积分",
+        "视频生成"
+      ],
+      "featured": false,
+      "visits": 4,
+      "todayClicks": 1,
+      "createdAt": "2026-10-27T04:23:42.784417+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "3d0a9a46-5558-4f6d-8e55-94cf8d8fab23",
+      "name": "SeedanceHub",
+      "url": "https://seedancehub.io/seedance-2-5/",
+      "description": "Seedance 2.5 视频生成。官网称登录赠150积分、每日60免费积分；当前默认5秒480p为60积分一次。可用次数随参数和账户额度变化，以生成前报价为准。",
+      "category": "ai-video",
+      "tags": [
+        "Seedance 2.5",
+        "免费额度",
+        "每日积分",
+        "视频生成"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-27T04:23:42.783940+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "11af7959-9055-4dd7-af93-b74bbb9f87e0",
+      "name": "AdSkull",
+      "url": "https://adskull.io/en/free/seedance-2-5",
+      "description": "Seedance 2.5 免费体验：官网称验证注册赠50积分，可生成1条4秒480p视频，无需绑卡，免费输出有水印。超出额度需付费；额度及规则以登录页为准。",
+      "category": "ai-video",
+      "tags": [
+        "Seedance 2.5",
+        "免费试用",
+        "注册赠积分",
+        "视频生成"
+      ],
+      "featured": false,
+      "visits": 2,
+      "todayClicks": 0,
+      "createdAt": "2026-10-27T04:23:42.783477+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "5bd9bde0-89f0-4253-8687-d8128850fd68",
+      "name": "程序集科技",
+      "url": "https://chengxuji.xyz/",
+      "description": "绝对正价号池，不卡不掉不降智，模型范围广。",
+      "category": "api-relays",
+      "tags": [
+        "价格区间广",
+        "福利",
+        "效率",
+        "稳定",
+        "不降智",
+        "全部正价号池可看虚拟卡账单。"
+      ],
+      "featured": false,
+      "visits": 5,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T14:43:11.785Z",
+      "sponsorPinUntil": null,
+      "relayOffer": {
+        "amountCents": 500,
+        "claimInstructions": "前五名通过gpt700.com注册的领取5刀额度，后面的统一领1刀试用额度。领取方式：添加我qq发送你的用户名，并备注来自700，手动给你添加（防止机器人薅羊毛）。"
+      },
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "32ec77d5-2b54-4620-8e51-2465a430004c",
+      "name": "Krea",
+      "url": "https://www.krea.ai/",
+      "description": "提供 AI 视频生成与图像创作工具的创意平台。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "图像创作",
+        "视频生成"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.632066+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "77df9a14-2649-4892-beb8-afa786691f5e",
+      "name": "LTX Studio",
+      "url": "https://ltx.io/studio",
+      "description": "用于 AI 视频生成和编辑的平台，支持文字与图像参考创作。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "文生视频",
+        "视频编辑"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.631895+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "ade2e291-f0ec-4e35-9488-22c64a9f3a57",
+      "name": "Invideo",
+      "url": "https://invideo.io/",
+      "description": "通过文字描述生成和编辑视频，支持素材检索和多镜头编辑。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "视频编辑",
+        "文本指令"
+      ],
+      "featured": false,
+      "visits": 1,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.631722+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "11fa364a-bb29-438d-ac0c-0d10761d12cc",
+      "name": "Synthesia",
+      "url": "https://www.synthesia.io/",
+      "description": "将文字脚本转换为数字人讲解视频的 AI 制作平台。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "数字人",
+        "培训视频"
+      ],
+      "featured": false,
+      "visits": 1,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.631541+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "e21bc8f4-d5fb-481b-8f41-7cb79da52fd1",
+      "name": "HeyGen",
+      "url": "https://www.heygen.com/",
+      "description": "用于数字人视频制作和视频翻译的 AI 平台。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "数字人",
+        "视频翻译"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.631344+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "00aa8bd5-f93b-499f-bb1b-01fc97ce4cf7",
+      "name": "VEED",
+      "url": "https://www.veed.io/",
+      "description": "在线 AI 视频制作平台，支持视频生成和编辑。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "视频生成",
+        "视频编辑"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.631171+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "b5d34929-92f9-4d52-b9e3-599d8fc0a952",
+      "name": "Google Flow",
+      "url": "https://flow.google.com/about",
+      "description": "Google 的 AI 影片创作工具，支持生成视频片段与场景。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "影片创作",
+        "Google"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.630958+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "95368d5a-2cf3-45de-8c8a-7c0f38b9d291",
+      "name": "即梦",
+      "url": "https://jimeng.jianying.com/",
+      "description": "支持文字或图片生成视频的 AI 创作平台。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "文生视频",
+        "图生视频"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.630774+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "b3be892e-5e14-45da-b7a8-b9557e56ae60",
+      "name": "Vidu",
+      "url": "https://www.vidu.com/",
+      "description": "支持文生视频、图生视频和参考图生成视频的创作平台。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "图生视频",
+        "参考图生成"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.630608+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "9a2c858f-26e6-4343-aa0b-fb0d89814344",
+      "name": "Hailuo 海螺",
+      "url": "https://hailuoai.video/",
+      "description": "海螺 AI 视频生成工具，支持图片和文字驱动的视频创作。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "视频生成",
+        "图生视频"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.630426+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "4ab572bc-3b70-40c9-91a4-21169fac9d39",
+      "name": "PixVerse",
+      "url": "https://pixverse.ai/",
+      "description": "支持文字和图片生成视频，并提供视频创作模板。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "文生视频",
+        "图生视频"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.630162+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "50da41b2-934f-4701-a1a1-fa9b9d31dc66",
+      "name": "Pika",
+      "url": "https://pika.art/",
+      "description": "AI 视频创作平台，提供视频生成、编辑与创意效果工具。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "视频生成",
+        "创意特效"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.629958+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "3748b375-2c8d-4b4c-a4b6-485a72011250",
+      "name": "Luma Dream Machine",
+      "url": "https://lumalabs.ai/dream-machine",
+      "description": "Luma 的 AI 视频创作工具，用于生成和修改视频。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "视频生成",
+        "视频编辑"
+      ],
+      "featured": false,
+      "visits": 1,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.629745+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "49bb3737-4700-4062-8ead-3a2721000b13",
+      "name": "Kling 可灵",
+      "url": "https://kling.ai/",
+      "description": "可灵 AI 视频创作平台，支持文字和图片生成视频。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "文生视频",
+        "图生视频"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.629521+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "20b65bc0-4d4f-4fa9-b8e1-4acb98ec2a66",
+      "name": "Runway",
+      "url": "https://runway.com/",
+      "description": "面向创作者的 AI 视频生成与编辑工具。",
+      "category": "ai-video",
+      "tags": [
+        "AI视频",
+        "视频生成",
+        "视频编辑"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T13:03:11.629206+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "9a261b27-993b-4bcd-a91c-f2b51931f50b",
+      "name": "Muse 账号派发",
+      "url": "https://shop.xiaocaoai.vip/categories/muse-ai",
+      "description": "Muse 账号派发页面入口。具体套餐、领取条件与售后规则以站点页面说明为准。",
+      "category": "digital-cards",
+      "tags": [
+        "卡网",
+        "店铺入口"
+      ],
+      "featured": false,
+      "visits": 12,
+      "todayClicks": 1,
+      "createdAt": "2026-10-26T12:10:25.564919+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "ca81ddd5-f226-4b7b-90a6-618cf229ec96",
+      "name": "GPT代充网站2",
+      "url": "https://catfk.com/shop/N35SO2LW",
+      "description": "云猫网店铺入口。商品目录、价格、库存及售后规则以店铺页面实时展示为准。",
+      "category": "digital-cards",
+      "tags": [
+        "卡网",
+        "店铺入口"
+      ],
+      "featured": false,
+      "visits": 7,
+      "todayClicks": 0,
+      "createdAt": "2026-10-26T10:34:40.607388+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "3e502488-842d-4006-ba9d-59c20ac25fbe",
+      "name": "GPT代充网站",
+      "url": "https://wzyp.cn/shop/5547DW7X",
+      "description": "联动网店铺入口。商品目录、价格、库存及售后规则以店铺页面实时展示为准。",
+      "category": "digital-cards",
+      "tags": [
+        "卡网",
+        "店铺入口"
+      ],
+      "featured": false,
+      "visits": 6,
+      "todayClicks": 2,
+      "createdAt": "2026-10-26T10:34:40.607108+00:00",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "5998bd56-0c59-4288-8379-efbb7ae03937",
+      "name": "反代项目羊毛",
+      "url": "https://github.com/999AAAXXX/cvg-bridge",
+      "description": "羊毛AI，6.1sol 6a Claude4.8",
+      "category": "ai",
+      "tags": [
+        "羊毛"
+      ],
+      "featured": false,
+      "visits": 7,
+      "todayClicks": 1,
+      "createdAt": "2026-10-25T12:30:49.842Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "97dc3944-ce35-49b9-abf7-ce3fa5b30713",
+      "name": "Free已接码0.6",
+      "url": "https://wzyp.cn/shop/HFGA0BL2",
+      "description": "Free 成品号-iCloud邮箱注册openai Codex 已接马（账号+密码+2fa）普号 超低价",
+      "category": "sms-services",
+      "tags": [
+        "Free 已接码 codex icloud"
+      ],
+      "featured": false,
+      "visits": 12,
+      "todayClicks": 0,
+      "createdAt": "2026-10-21T11:19:37.918Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "45e80098-cf06-4368-b36a-cd8154973ffa",
+      "name": "NV站点",
+      "url": "https://nvtokens.com/",
+      "description": "nv交易站点，nv官网，nv交易官网",
+      "category": "gpt-tools",
+      "tags": [
+        "nv交易"
+      ],
+      "featured": false,
+      "visits": 27,
+      "todayClicks": 2,
+      "createdAt": "2026-10-21T09:16:29.636Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "2c17d63a-b198-4eea-8ab7-c746b941b35b",
+      "name": "Artificial Analysis · AI模型评测",
+      "url": "https://artificialanalysis.ai/models",
+      "description": "独立AI模型评测与对比平台，提供大语言模型的智能能力、基准测试、输入输出价格、生成速度、首字延迟和上下文窗口等指标，支持筛选模型及查看详细评测与方法说明。适合比较不同模型的能力与成本，为AI工具使用和API选型提供参考。",
+      "category": "ai",
+      "tags": [
+        "模型评测",
+        "AI排行榜",
+        "模型选型"
+      ],
+      "featured": false,
+      "visits": 2,
+      "todayClicks": 0,
+      "createdAt": "2026-10-12T13:40:15.119Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "ceccc622-54f9-42e5-ab58-38185ecb3523",
+      "name": "Vivid AI",
+      "url": "https://vividai.run/",
+      "description": "稳定快速的生图生视频工具",
+      "category": "ai",
+      "tags": [
+        "生图",
+        "生视频",
+        "gpt-image-2",
+        "nano-banana"
+      ],
+      "featured": false,
+      "visits": 6,
+      "todayClicks": 0,
+      "createdAt": "2026-10-12T09:19:52.885Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "48991054-f2c7-48c2-8cde-080146a10197",
+      "name": "ai小铺888",
+      "url": "https://catfk.com/shop/ai888",
+      "description": "价格最便宜plus",
+      "category": "digital-cards",
+      "tags": [],
+      "featured": false,
+      "visits": 33,
+      "todayClicks": 1,
+      "createdAt": "2026-10-11T18:59:44.717Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "0cc9f9f8-733c-4c9c-9171-d4e61851b07f",
+      "name": "js13kGames · 13KB网页游戏大赛",
+      "url": "https://js13kgames.com/",
+      "description": "以13KB体积限制为特色的网页游戏开发竞赛，自2012年起每年举办，网站展示历届参赛游戏、获奖作品、比赛规则及开发资源，包含桌面、移动端、WebXR和在线游戏相关类别。适合体验轻量网页游戏、寻找创意和学习小体积游戏开发；作品具体源码及许可需查看各项目说明。",
+      "category": "blog",
+      "tags": [
+        "网页游戏",
+        "游戏开发",
+        "13KB挑战"
+      ],
+      "featured": false,
+      "visits": 4,
+      "todayClicks": 0,
+      "createdAt": "2026-10-11T07:48:03.336Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "3dd56fcf-1a99-4d94-99eb-87aeeb3e6adc",
+      "name": "ai-web2api · ChatGPT网页转API",
+      "url": "https://github.com/yaohuiwu/ai-web2api",
+      "description": "MIT开源的网页AI转API工具，通过Playwright操作真实ChatGPT等聊天网页，输入消息并读取回答，提供OpenAI兼容Chat Completions、流式输出、登录状态保存、会话管理和Web管理界面。ChatGPT采用网页驱动而非Codex订阅接口，作者注明需有界面浏览器模式及手动登录。仓库2026年9月22日创建，最近核查提交为9月26日；未做部署实测。",
+      "category": "blog",
+      "tags": [
+        "ChatGPT网页反代",
+        "MIT开源",
+        "Playwright"
+      ],
+      "featured": false,
+      "visits": 15,
+      "todayClicks": 0,
+      "createdAt": "2026-10-10T08:27:30.337Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "72855213-9dc0-492a-bb4b-8b71330c3ae2",
+      "name": "clipx · 多账号订阅代理",
+      "url": "https://github.com/shivamhwp/clipx",
+      "description": "2026年10月7日创建的Rust公开源码代理，聚合ChatGPT、Claude及Gemini订阅，作者描述支持多账号调度、限额切换、管理面板和远程访问，可导入CLIProxyAPI登录资料并对接编程工具。尚未确认开源许可证，未做部署实测。",
+      "category": "blog",
+      "tags": [
+        "GPT反代",
+        "多账号",
+        "公开源码"
+      ],
+      "featured": false,
+      "visits": 8,
+      "todayClicks": 1,
+      "createdAt": "2026-10-10T08:22:39.760Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "829922b3-1fae-49a8-9f16-6d3d3326c0c5",
+      "name": "chatgpt-unauth-proxy · 网页转API",
+      "url": "https://github.com/ded648238/chatgpt-unauth-proxy",
+      "description": "2026年10月4日创建的JavaScript公开源码项目，作者描述为通过浏览器访问匿名ChatGPT并提供OpenAI兼容Chat Completions与SSE流式接口，使用串行任务队列。依赖网页结构及匿名会话可用性；尚未确认开源许可证，未做部署实测。",
+      "category": "blog",
+      "tags": [
+        "GPT网页反代",
+        "公开源码",
+        "SSE"
+      ],
+      "featured": false,
+      "visits": 5,
+      "todayClicks": 1,
+      "createdAt": "2026-10-10T08:22:39.603Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "08661d19-21cc-4c55-b6d5-be57c6093d35",
+      "name": "Patchbay · 多模型订阅代理",
+      "url": "https://github.com/Robinbinu/patchbay",
+      "description": "2026年10月6日创建的Go本地模型代理，提供Windows、macOS、Linux客户端，聚合ChatGPT/Codex、Claude、Grok及OpenRouter，支持账号登录、状态及本地密钥管理，采用MIT许可证。当前不做协议互转，GPT/Codex需使用Responses接口；未做部署实测。",
+      "category": "blog",
+      "tags": [
+        "GPT反代",
+        "桌面客户端",
+        "MIT"
+      ],
+      "featured": false,
+      "visits": 2,
+      "todayClicks": 0,
+      "createdAt": "2026-10-10T08:22:39.466Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "cb9d7525-797c-4e85-9112-a643cee861cc",
+      "name": "llm-proxy · GPT/Codex订阅反代",
+      "url": "https://github.com/vladimir-nocy/llm-proxy",
+      "description": "2026年10月8日创建的Rust订阅代理，支持将ChatGPT/Codex接为Responses API，同时提供Claude接口和REST/MCP适配，支持流式响应、凭据刷新及用量信息；主项目采用MIT许可证。需自行配置账号与运行环境，未做部署实测。",
+      "category": "blog",
+      "tags": [
+        "GPT反代",
+        "Codex",
+        "MIT"
+      ],
+      "featured": false,
+      "visits": 6,
+      "todayClicks": 0,
+      "createdAt": "2026-10-10T08:22:39.305Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "91fedbc8-09df-4b10-a62e-ee09d560c209",
+      "name": "Turb GPT Register · 开源注册工具",
+      "url": "https://github.com/wangshen233/turb-gpt-free-register-oss-20260928",
+      "description": "基于gpt-free-register整理扩展的本地GPT注册流程工具，集中管理邮箱、代理与注册任务，支持协议驱动、本地指纹浏览器、命令行及WebUI。建议使用Python 3.11，主项目采用MIT许可证；邮箱服务、代理与浏览器环境需自行配置，运行结果保存在本机。",
+      "category": "blog",
+      "tags": [
+        "开源项目",
+        "GPT注册",
+        "WebUI"
+      ],
+      "featured": false,
+      "visits": 41,
+      "todayClicks": 1,
+      "createdAt": "2026-10-09T15:42:43.151Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "7caf1536-0a29-490d-8b00-9c72700b8d9b",
+      "name": "忘忧 · 公益UPI提链",
+      "url": "https://wangyou.dric52.com/",
+      "description": "公益UPI提链工作台，提供Plus UPI零元提链入口，支持批量导入Access Token、自定义代理、任务队列、日志、付款链接及二维码结果，并提供API对接文档和可选Foarge自动支付对接。页面采用CDK点数制，成功提链扣1点、失败返还；点数获取及具体使用条件以站内说明为准，提链成功不等于支付或订阅到账。",
+      "category": "upi-zone",
+      "tags": [
+        "公益提链",
+        "UPI",
+        "批量提链"
+      ],
+      "featured": false,
+      "visits": 91,
+      "todayClicks": 1,
+      "createdAt": "2026-10-09T15:33:55.811Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "2b999201-e6f0-4618-ab7a-cafe1b9beb3e",
+      "name": "Seashore · UPI扫码站",
+      "url": "https://seashore.lol/publisher",
+      "description": "UPI扫码任务撮合平台，提供发布者入口。发布者使用CDK直接登录，无需注册，登录页提供CDK购买入口；具体任务流程、费用及渠道可用性以站内说明为准。",
+      "category": "upi-zone",
+      "tags": [
+        "UPI扫码",
+        "任务撮合",
+        "CDK登录"
+      ],
+      "featured": false,
+      "visits": 94,
+      "todayClicks": 2,
+      "createdAt": "2026-10-09T15:22:49.755Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "cb8626ef-5bc9-44dd-aaff-87e205cc6467",
+      "name": "Codex 0.4接码服务",
+      "url": "https://apihub.space/handy/",
+      "description": "全自动绑定",
+      "category": "sms-services",
+      "tags": [
+        "快速",
+        "便捷",
+        "高效"
+      ],
+      "featured": false,
+      "visits": 64,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T11:26:56.641Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "dc95dda7-2f89-4ef7-bd43-57524d6e7cff",
+      "name": "GPTSHOP - GPT代充",
+      "url": "https://shop.allclaw.cloud/",
+      "description": "GPT代充与数字商品购买入口，具体会员套餐、价格、充值方式和售后以商品页说明为准。",
+      "category": "digital-cards",
+      "tags": [
+        "GPT代充",
+        "会员充值"
+      ],
+      "featured": false,
+      "visits": 19,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:31:16.661Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "0ea47229-9cd4-4fee-9331-00d65b437b47",
+      "name": "dr资格号",
+      "url": "https://wzyp.cn/item/j1cr17",
+      "description": "dr资格号商品购买入口，具体资格说明、价格、库存与售后以商品页实时信息为准。",
+      "category": "digital-cards",
+      "tags": [
+        "dr",
+        "资格号"
+      ],
+      "featured": false,
+      "visits": 66,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:15:47.149Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "0feae44d-6960-41aa-9347-38f6e99e31ac",
+      "name": "Sentry Skills",
+      "url": "https://github.com/getsentry/skills",
+      "description": "Sentry团队开发工作流使用的Agent Skills集合。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "开发工作流"
+      ],
+      "featured": false,
+      "visits": 3,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:46.990Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "6b280e33-b9e5-454c-8f05-99a26c3fc690",
+      "name": "Cloudflare Skills",
+      "url": "https://github.com/cloudflare/skills",
+      "description": "Cloudflare官方技能，帮助Agent开发Cloudflare平台应用。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "云开发"
+      ],
+      "featured": false,
+      "visits": 5,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:46.851Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "5e1c9d4a-3e18-4b8a-9e22-1de728814ffa",
+      "name": "HashiCorp Agent Skills",
+      "url": "https://github.com/hashicorp/agent-skills",
+      "description": "HashiCorp产品相关技能及Claude Code插件，面向基础设施开发。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "基础设施"
+      ],
+      "featured": false,
+      "visits": 1,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:46.712Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "5b406db2-4b2d-44c6-880f-33df800b97fb",
+      "name": "Trail of Bits安全审计Skills",
+      "url": "https://github.com/trailofbits/skills",
+      "description": "安全研究、漏洞检测与代码审计工作流技能库。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "安全审计"
+      ],
+      "featured": false,
+      "visits": 1,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:46.573Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "31ea85d3-9d4b-4ae1-9755-8defdb9e32a6",
+      "name": "Awesome Agent Skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "description": "官方团队及社区Agent Skills精选索引，覆盖多种编码Agent。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "技能导航"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:46.425Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "f8710b8f-fda6-4506-b0fd-ddb5909970ed",
+      "name": "Awesome Claude Skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "Claude Skills、资源与工具精选索引，适合按用途发现技能；索引不代表所有条目已实测。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "技能导航"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:46.269Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "9ea50b30-7f94-4da0-a000-270c19d84156",
+      "name": "UI UX Pro Max",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "社区UI/UX设计技能，提供多平台界面设计知识与实现辅助。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "界面设计"
+      ],
+      "featured": false,
+      "visits": 11,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:46.130Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "6d1361a6-05be-4df8-870d-383bb4865fd3",
+      "name": "Google Stitch Skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "配合Stitch MCP的Agent Skills，适用于设计与界面生成工作流。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "界面设计"
+      ],
+      "featured": false,
+      "visits": 7,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:45.992Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "8d0a434e-dca5-453c-b3f1-3e0a8727e230",
+      "name": "Supabase Agent Skills",
+      "url": "https://github.com/supabase/agent-skills",
+      "description": "Supabase开发者技能集合，帮助AI处理数据库与Supabase相关任务。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "数据库"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:45.853Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "2cc72e23-bac2-4312-9934-1bec8987128e",
+      "name": "Microsoft Skills",
+      "url": "https://github.com/microsoft/skills",
+      "description": "微软SDK相关技能、MCP和Agent指导集合；按具体项目选择所需模块。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "SDK开发"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:45.715Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "e5bc2db8-6c25-4e36-a971-a8bf58585cff",
+      "name": "Remotion Skills",
+      "url": "https://github.com/remotion-dev/skills",
+      "description": "Remotion官方Agent Skills，帮助AI使用React制作程序化视频。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "视频制作"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:45.575Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "9e42bbb7-eb1d-452d-9bd3-1767e5bcad32",
+      "name": "Expo Skills",
+      "url": "https://github.com/expo/skills",
+      "description": "Expo与EAS相关AI开发技能，面向React Native移动应用。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "移动开发"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:45.437Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "8efc518b-6645-47d4-8e65-d90f0e2e5b78",
+      "name": "Hugging Face Skills",
+      "url": "https://github.com/huggingface/skills",
+      "description": "Hugging Face生态技能，面向模型、数据集与机器学习工作流。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "机器学习"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:45.292Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "b5a56f67-1e72-4ff6-9524-f49bb81b5e49",
+      "name": "OpenAI Codex Skills",
+      "url": "https://github.com/openai/skills",
+      "description": "OpenAI官方Codex技能目录，包含精选技能和安装指引。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "官方技能库"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:45.154Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "a5e4b502-87fa-4d48-962f-760043f6b3ee",
+      "name": "Superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "软件开发技能与工作流框架，组织需求讨论、计划、测试及调试等任务。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "开发工作流"
+      ],
+      "featured": false,
+      "visits": 2,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:45.015Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "d614b2c7-9e56-4fb7-be9f-9565e51ce772",
+      "name": "Skills CLI · 技能发现与安装",
+      "url": "https://github.com/vercel-labs/skills",
+      "description": "开放Agent Skills命令行工具，提供技能发现与安装入口；这是安装工具，不是单个技能。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "技能工具"
+      ],
+      "featured": false,
+      "visits": 2,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:44.877Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "08acdaf8-8a01-4a79-8fe8-f220e4561a91",
+      "name": "Vercel Agent Skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "description": "Vercel官方技能集合，面向React、Next.js与Web开发工作流。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "前端开发"
+      ],
+      "featured": false,
+      "visits": 4,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:44.737Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "7e5227fa-31ca-4603-ad5b-5d88510e85ad",
+      "name": "Anthropic官方Skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "官方Agent Skills示例与技能库，包含文档、设计和开发工作流。 兼容Agent、依赖与安装方式请查看README；本次核对公开仓库，未逐个安装运行。",
+      "category": "skills",
+      "tags": [
+        "Agent Skills",
+        "官方技能库"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T10:03:44.582Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "e08e7d76-7c51-44f2-a7b1-4534be9d5907",
+      "name": "Volet",
+      "url": "https://volet.com/",
+      "description": "提供数字钱包及分地区卡产品。欧洲虚拟卡限对应支持地区；亚太卡为实体预付卡，要求指定国家公民或合格长期居留、地址验证，不是大陆居民随用虚拟卡。GPT支付未验证。",
+      "category": "virtual-cards",
+      "tags": [
+        "地区资格限制",
+        "虚拟卡",
+        "GPT未验证"
+      ],
+      "featured": false,
+      "visits": 19,
+      "todayClicks": 1,
+      "createdAt": "2026-10-09T09:51:34.623Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "efa675b5-e523-4741-8606-22f0804a2a80",
+      "name": "VVAcard · CardEcho",
+      "url": "https://www.vvacard.com/",
+      "description": "中文虚拟卡台，官网注册入口公告明确关闭公众个人注册；大量开卡需求的企业或大客户可联系商务申请定向邀请。不是当前可自由注册的个人卡台，GPT适用性未验证。",
+      "category": "virtual-cards",
+      "tags": [
+        "中文卡台",
+        "个人注册关闭",
+        "企业邀请"
+      ],
+      "featured": false,
+      "visits": 26,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:51:33.515Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "71dcab0e-2c37-48fd-a5a4-99612ae595ff",
+      "name": "RedotPay",
+      "url": "https://www.redotpay.com/",
+      "description": "稳定币支付及虚拟卡平台，需身份、地址和人脸核验。官方2026年8月限制名单列出中国大陆，不作为大陆用户可开卡推荐；GPT订阅支付未实测。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "中国大陆受限",
+        "GPT未验证"
+      ],
+      "featured": false,
+      "visits": 30,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:51:31.232Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "d3b99e98-d990-4f13-a420-af2e62f6bede",
+      "name": "Emburse Cards",
+      "url": "https://www.emburse.com/",
+      "description": "企业费用管理虚拟卡，产品页披露由美国Celtic Bank发卡；完整地区和开户条件需向平台核实。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "企业卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 14,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:40.946Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "2fcdd6a1-4fa9-4d70-91d8-f167fa74b1e7",
+      "name": "Payhawk",
+      "url": "https://payhawk.com/",
+      "description": "提供虚拟Visa企业卡和费用管理；面向美国、加拿大、英国及指定欧洲地区企业，需企业审核并有主体类型限制。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "企业卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 20,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:40.795Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "1e40fa40-fb1a-461d-bbca-9e2eff444190",
+      "name": "Mercury",
+      "url": "https://mercury.com/",
+      "description": "美国企业账户及虚拟借记/IO企业卡；须美国注册主体、EIN、美国业务和受益人审核，IO卡另有资格条件。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "企业卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 3,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:40.639Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "d2a62e24-8455-49a8-b057-531c705ea973",
+      "name": "Brex",
+      "url": "https://www.brex.com/",
+      "description": "提供企业虚拟Mastercard；通常要求美国注册企业、EIN、美国业务及实体地址，并接受企业规模/资金审核。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "企业卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 4,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:40.485Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "6df61a20-3eca-4029-a8d0-eb11b4337213",
+      "name": "Ramp",
+      "url": "https://ramp.com/",
+      "description": "企业虚拟信用卡和费用管理，须符合对应国家企业及信用审核要求；全球发卡安排不等于全球个人可开户。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "企业卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 4,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:40.330Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "e26be1c5-95ea-48f0-bd8c-82202329a949",
+      "name": "Spendesk",
+      "url": "https://www.spendesk.com/",
+      "description": "企业费用管理平台，提供单次、多次及订阅虚拟卡；完整支付服务主要面向EEA、英国和美国企业，需企业审核。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "企业卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 3,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:40.175Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "98c8e914-fd49-40b8-99ed-72be8231798c",
+      "name": "Wallester Business",
+      "url": "https://wallester.com/",
+      "description": "企业虚拟及实体Visa卡；支持EEA、英国及指定其他地区企业，需企业验证，具体开户资格以官方审核为准。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "企业卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 3,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:40.001Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "2a17ebac-0bde-46ad-9499-351c7596acce",
+      "name": "Airwallex · 空中云汇",
+      "url": "https://www.airwallex.com/",
+      "description": "提供企业虚拟Visa卡，可用于软件订阅；须企业账户、企业与受益人审核，发卡取决于注册地区。不是普通个人开卡服务。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "企业卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 3,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:39.846Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "8f40f202-a8b1-4e36-8b34-d7c5090757a9",
+      "name": "Zilch",
+      "url": "https://www.zilch.com/",
+      "description": "英国个人数字Visa支付/信贷产品；需18岁以上英国居民、英国借记卡、地址和身份/信用核验。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 3,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:39.691Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "19bc3b57-17c6-452b-b3f5-ac9122455f9d",
+      "name": "Curve",
+      "url": "https://www.curve.com/",
+      "description": "英国与EEA支付聚合数字卡，需实名并绑定本人合格银行卡；不是无需底层银行卡的独立充值卡台。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 4,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:39.536Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "6fa77bac-a9e4-41d1-a71a-ddbf13789f4f",
+      "name": "bunq",
+      "url": "https://www.bunq.com/",
+      "description": "提供个人数字卡，需正式常住于支持的欧盟国家并完成身份与居住资格核验；可开始注册不等于可发卡。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 4,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:39.380Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "7225096d-3aab-49e8-992b-e1217d2d27c6",
+      "name": "N26",
+      "url": "https://n26.com/",
+      "description": "欧洲个人银行虚拟Mastercard借记卡；限官方列出的欧洲国家居民，需有效证件及身份审核。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 16,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:39.223Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "01ebf36d-e874-486d-8e04-5e70b498d246",
+      "name": "Monese",
+      "url": "https://www.monese.com/",
+      "description": "App提供线上虚拟卡，主要面向欧洲居民；需证件和自拍视频。英国开户及实时服务状态须以官方注册流程为准。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 7,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:39.068Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "d5bd16b3-bdde-46bf-8e95-99314e270772",
+      "name": "Skrill",
+      "url": "https://www.skrill.com/",
+      "description": "提供虚拟预付Mastercard；主要面向英国、EEA及其他获准地区居民，需身份与地址核验。预付卡与借记卡不同。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 1,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:38.910Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "2dfbefcc-524d-462a-832d-35d104e1335e",
+      "name": "Wise",
+      "url": "https://wise.com/",
+      "description": "提供数字卡及线上支付，需支持地区居住地址和身份审核；中国大陆居民不属于该数字卡常规申请地区。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 4,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:38.754Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "6d653fa5-74e2-4bfb-96c3-bd64bcb9f2d6",
+      "name": "Revolut",
+      "url": "https://www.revolut.com/",
+      "description": "提供多次使用虚拟借记卡及一次性卡；订阅应使用多次使用卡。限官方支持地区居民，需身份核验。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 3,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:38.594Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "d606d6cd-368a-4aa3-bc22-8218494bee24",
+      "name": "Privacy.com",
+      "url": "https://privacy.com/",
+      "description": "美国个人虚拟支付卡，支持商户锁定及额度管理；限18岁以上美国公民或合法居民，需美国银行账户和身份核验。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 2,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:38.438Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "6be8b2a9-1506-4a18-88b4-f13ebdda37ba",
+      "name": "YouTrip",
+      "url": "https://www.you.co/sg/",
+      "description": "新加坡多币种虚拟卡，需当地身份或有效居留资格，可使用Singpass/MyInfo或人工身份审核。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 2,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:38.284Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "9983c84b-809f-4857-932f-cab97cb519e7",
+      "name": "PSTNET",
+      "url": "https://pst.net/",
+      "description": "提供Ultima线上消费及广告虚拟卡，实施身份与生物识别核验；发卡地区和卡型限制以官方审核为准。 已核实官方虚拟卡产品；ChatGPT订阅支付未实测，也未获该产品页明确确认。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人/企业卡",
+        "GPT未验证",
+        "需实名审核"
+      ],
+      "featured": false,
+      "visits": 4,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:38.130Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "5c3cc8f1-08c4-45da-b2c6-53637d8c4ce7",
+      "name": "PokePay",
+      "url": "https://pokepay.cc/",
+      "description": "PokePay提供个人虚拟卡及线上订阅用途，需证件和KYC，FAQ要求资料与护照姓名一致。官网内容面向香港居民，中国大陆居民申请资格未获明确确认；GPT支付未实测。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "香港居民",
+        "大陆开卡待确认",
+        "GPT未验证"
+      ],
+      "featured": false,
+      "visits": 9,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:37.976Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "3d591029-fe9a-4f80-853d-0c31c3a1118a",
+      "name": "BiyaPay · EasyCard",
+      "url": "https://www.biyapay.com/",
+      "description": "BiyaPay EasyCard个人虚拟卡，官网明确列出ChatGPT、Claude订阅用途。官方实名教程支持身份证或护照加人脸验证，邮箱注册；但身份证类型并不能证明中国大陆居民当前可开所有卡段，需向官方确认居住地和卡段资格。未实测支付或续费。",
+      "category": "virtual-cards",
+      "tags": [
+        "个人卡",
+        "身份证或护照",
+        "大陆开卡待确认",
+        "官方提及GPT"
+      ],
+      "featured": false,
+      "visits": 22,
+      "todayClicks": 0,
+      "createdAt": "2026-10-09T09:25:37.821Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "efdeb3c4-6626-4623-8f4c-db9053431dd6",
+      "name": "AI猫猫社",
+      "url": "https://wzyp.cn/shop/X2SH98KX",
+      "description": "低价 5X team 汇聚各类商品",
+      "category": "digital-cards",
+      "tags": [
+        "5x team"
+      ],
+      "featured": false,
+      "visits": 18,
+      "todayClicks": 0,
+      "createdAt": "2026-10-08T13:06:25.679Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "488049d0-ede6-43fb-8224-2915ab1a89b0",
+      "name": "十二AI",
+      "url": "https://wzyp.cn/shop/GYOFVUVT",
+      "description": "低价5xteam上车",
+      "category": "digital-cards",
+      "tags": [],
+      "featured": false,
+      "visits": 13,
+      "todayClicks": 0,
+      "createdAt": "2026-10-08T03:45:03.062Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "e53a98b2-2e71-45b8-a20e-22512ee6179d",
+      "name": "冲云提链",
+      "url": "https://chongyun-upi.xiaoliai.shop/",
+      "description": "好",
+      "category": "ai",
+      "tags": [],
+      "featured": false,
+      "visits": 43,
+      "todayClicks": 0,
+      "createdAt": "2026-10-07T04:48:16.164Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "200d8a44-a805-48b7-8a59-e073500b52fc",
+      "name": "IC邮箱0.01元·QQ群",
+      "url": "https://qm.qq.com/q/N1O8Yba1Wg",
+      "description": "IC邮箱0.01元，活动仅两天！QQ群：1076358947。加群后进入卡网购买。",
+      "category": "qq-groups",
+      "tags": [
+        "IC邮箱",
+        "0.01元",
+        "两天活动"
+      ],
+      "featured": false,
+      "visits": 99,
+      "todayClicks": 3,
+      "createdAt": "2026-10-06T05:59:46.422Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "ade30b08-f274-4da6-aac7-636fd45d1b86",
+      "name": "Layo · 提链工作台",
+      "url": "https://layo.club/",
+      "description": "UPI、MoMo、GoPay提链工作台，支持账号导入、代理配置、任务队列、链接与二维码结果及CDKey账单；UPI可选择独立Masi支付对接。公开统计展示近12小时真实UPI提链成功次数，提链成功不等于支付或订阅成功；渠道可用性、额度与收费以站内说明为准。",
+      "category": "upi-zone",
+      "tags": [
+        "UPI提链",
+        "MoMo",
+        "GoPay"
+      ],
+      "featured": false,
+      "visits": 111,
+      "todayClicks": 1,
+      "createdAt": "2026-10-05T08:41:05.645Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "bcb38685-3e55-4bc5-a1fc-dc62f5ec1659",
+      "name": "动态IP批发群",
+      "url": "https://qm.qq.com/q/cE4qpE2fks",
+      "description": "动态IP批发与代理资源交流QQ群，用于货源咨询、批发合作与使用交流；具体价格、地区和服务条款请在群内核对。",
+      "category": "qq-groups",
+      "tags": [
+        "动态IP",
+        "代理批发",
+        "QQ群"
+      ],
+      "featured": false,
+      "visits": 13,
+      "todayClicks": 0,
+      "createdAt": "2026-10-05T06:51:21.727Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "46dabd6d-8dfc-446d-9e2e-bd9ce3fafb63",
+      "name": "team  免费提炼",
+      "url": "https://qitucloud.l.cd/team/",
+      "description": "免费team提炼，不用本地节点网络",
+      "category": "ai",
+      "tags": [
+        "team"
+      ],
+      "featured": false,
+      "visits": 48,
+      "todayClicks": 0,
+      "createdAt": "2026-10-04T15:58:28.220Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "5c2ce557-2bb9-4bfb-abdc-44c104394720",
+      "name": "鸡哥 GPT 生图站 · 图片工作台",
+      "url": "https://api.ikungod.online/ai-image/",
+      "description": "鸡哥 ikun 生图站图片创作工作台，支持文字和参考图创作图片，以及作品、任务和个人余额管理。模型和费用以站内说明为准。",
+      "category": "gpt-tools",
+      "tags": [
+        "GPT生图",
+        "图片创作",
+        "鸡哥站点"
+      ],
+      "featured": false,
+      "visits": 41,
+      "todayClicks": 0,
+      "createdAt": "2026-10-04T14:58:30.543Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "7908fba6-cb5e-424c-8f91-adb60a79c2b5",
+      "name": "鸡哥 GPT 生图站 · IKUN",
+      "url": "https://api.ikungod.online/custom/ikun-image",
+      "description": "鸡哥 IKUN 站点的 GPT 生图入口。模型、额度、登录要求与价格以页面实际展示为准。",
+      "category": "gpt-tools",
+      "tags": [
+        "GPT生图",
+        "图片创作",
+        "鸡哥站点"
+      ],
+      "featured": false,
+      "visits": 40,
+      "todayClicks": 0,
+      "createdAt": "2026-10-04T14:58:27.642Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "37cacd8c-7c94-4d7a-a3a2-4768c5319290",
+      "name": "x2api · AI额度租赁平台",
+      "url": "https://x2.miaooo.cc/",
+      "description": "出租闲置AI额度，或通过统一API租用额度；支持出租时段、调用记录与收益查看。功能依官网介绍，未实测交易或收益。",
+      "category": "gpt-tools",
+      "tags": [
+        "额度租赁",
+        "出租额度",
+        "统一API"
+      ],
+      "featured": false,
+      "visits": 63,
+      "todayClicks": 3,
+      "createdAt": "2026-10-04T13:13:59.946Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "30d6e347-06fc-486a-9419-71709e4be14d",
+      "name": "蚂蚁AI",
+      "url": "https://wzyp.cn/shop/antmall",
+      "description": "源头供货gpt",
+      "category": "digital-cards",
+      "tags": [],
+      "featured": false,
+      "visits": 12,
+      "todayClicks": 0,
+      "createdAt": "2026-10-04T04:18:51.816Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "732b75b7-f566-4b07-a3e1-a27d4208da53",
+      "name": "人工智能小铺",
+      "url": "https://wzyp.cn/shop/86CA7TA7",
+      "description": "ai代充",
+      "category": "ai",
+      "tags": [],
+      "featured": false,
+      "visits": 23,
+      "todayClicks": 0,
+      "createdAt": "2026-10-03T18:36:19.712Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "a5d9c728-f2b5-4db2-af8d-f2141cf660ca",
+      "name": "LINUX SB",
+      "url": "https://linux.sb/",
+      "description": "Linuxdo的对立面",
+      "category": "ai-deals",
+      "tags": [
+        "AI工具",
+        "AI社区"
+      ],
+      "featured": false,
+      "visits": 113,
+      "todayClicks": 0,
+      "createdAt": "2026-10-03T14:16:42.731Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "a8b07095-854f-458e-802f-b4997eb36742",
+      "name": "松鼠博客",
+      "url": "https://squirrelblog.com/",
+      "description": "分享AI日报、实用工具与技术笔记，涵盖CTF解题、Web安全、逆向与经验教程，附论坛和资源导航。",
+      "category": "blog",
+      "tags": [
+        "AI日报",
+        "技术笔记",
+        "CTF教程"
+      ],
+      "featured": false,
+      "visits": 35,
+      "todayClicks": 0,
+      "createdAt": "2026-10-03T14:16:18.913Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "033f2f6a-2be5-49a0-8156-c500e23df0ca",
+      "name": "叶叶云|稳定云服务器提供商",
+      "url": "https://www.yeyeidc.com/",
+      "description": "叶叶云专注为企业提供安全稳定的云计算与IDC基础设施服务，包括弹性云服务器、BGP高防数据中心、混合云部署、全球CDN加速等，7x24小时技术支持，助力企业数字化转型。",
+      "category": "resources",
+      "tags": [],
+      "featured": false,
+      "visits": 59,
+      "todayClicks": 1,
+      "createdAt": "2026-10-02T07:31:52.315Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "980fb240-9fa1-44af-90e2-b20218d23a47",
+      "name": "AI赋能小店",
+      "url": "https://wzyp.cn/shop/KWTC8AHV",
+      "description": "各种AI工具专卖",
+      "category": "digital-cards",
+      "tags": [
+        "gpt",
+        "gemini",
+        "接码",
+        "中转"
+      ],
+      "featured": false,
+      "visits": 12,
+      "todayClicks": 1,
+      "createdAt": "2026-10-02T06:16:44.324Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "8518417e-cc99-44c3-ad93-f233eac87977",
+      "name": "0.6   codex短效实卡接码（自动化最快10秒完成）",
+      "url": "https://sms.iruozhen.com/",
+      "description": "0.6   codex短效实卡接码（自动化最快10秒完成）",
+      "category": "sms-services",
+      "tags": [],
+      "featured": false,
+      "visits": 89,
+      "todayClicks": 1,
+      "createdAt": "2026-10-01T15:43:51.864Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "e44bbac6-614e-453b-a3f1-27047372065a",
+      "name": "若真AI",
+      "url": "https://www.16688.com.cn/shop/RUOZHEN",
+      "description": "openai-free账户批发",
+      "category": "mail-services",
+      "tags": [
+        "邮箱",
+        "接码"
+      ],
+      "featured": false,
+      "visits": 63,
+      "todayClicks": 0,
+      "createdAt": "2026-10-01T15:18:48.298Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "48091202-e99c-4120-b0d4-a5c9cde50605",
+      "name": "多功能AI站",
+      "url": "https://wzyp.cn/shop/PVFWFNIL",
+      "description": "低价动态ip，注册机CDK购买，codex接码，低价邮箱",
+      "category": "gpt-tools",
+      "tags": [],
+      "featured": false,
+      "visits": 92,
+      "todayClicks": 1,
+      "createdAt": "2026-10-01T10:10:17.873Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "bd7015d0-f3b4-4588-a6e3-21764a706340",
+      "name": "源头AI充值【旗舰服务】",
+      "url": "https://wzyp.cn/shop/cod",
+      "description": "便宜好用",
+      "category": "digital-cards",
+      "tags": [
+        "plus成品号"
+      ],
+      "featured": false,
+      "visits": 54,
+      "todayClicks": 2,
+      "createdAt": "2026-10-01T10:10:14.406Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "37f52cd4-5d96-44c8-b5b3-1e43fe7b6fc2",
+      "name": "快手萤火呆瓜",
+      "url": "https://shanghao.xyjxk.com/?a=b7514cd1",
+      "description": "快手萤火短剧呆瓜分成",
+      "category": "ai",
+      "tags": [
+        "快手萤火短剧呆瓜分成"
+      ],
+      "featured": false,
+      "visits": 17,
+      "todayClicks": 0,
+      "createdAt": "2026-10-01T08:40:29.634Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "c830cdc6-468b-4de5-95c3-90bd627c1996",
+      "name": "GetModel小铺",
+      "url": "https://wzyp.cn/shop/9Y5FQ6ZL",
+      "description": "低价优质接码ic邮箱free号、free额度积分号、精品美区接码",
+      "category": "digital-cards",
+      "tags": [],
+      "featured": false,
+      "visits": 19,
+      "todayClicks": 0,
+      "createdAt": "2026-10-01T07:38:18.424Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "425c08b2-0ff1-48e4-acad-bde242444c8a",
+      "name": "美国长效ICloud隐私邮箱",
+      "url": "https://wzyp.cn/item/qvr0fb",
+      "description": "长效稳定收码",
+      "category": "mail-services",
+      "tags": [
+        "iCloud",
+        "邮箱",
+        "free",
+        "接码"
+      ],
+      "featured": false,
+      "visits": 102,
+      "todayClicks": 0,
+      "createdAt": "2026-10-01T04:41:31.804Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "188e7f78-53ee-4d55-a415-539390f4a2aa",
+      "name": "风火轮CDK",
+      "url": "https://catfk.com/shop/4JH37BDS",
+      "description": "风火轮 CDK 店铺入口，商品与价格以店铺页实时展示为准。",
+      "category": "upi-zone",
+      "tags": [
+        "CDK",
+        "卡密",
+        "风火轮"
+      ],
+      "featured": false,
+      "visits": 43,
+      "todayClicks": 0,
+      "createdAt": "2026-09-30T13:14:02.421Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "03950cfc-1bd6-4e0e-b0de-1a7167003eda",
+      "name": "域名邮箱 0.02 元起",
+      "url": "https://www.16688.com.cn/goods/G98064582",
+      "description": "16688 平台域名邮箱商品，页面标价每件 0.02 元、 10 件起购；价格以商品页实时展示为准。",
+      "category": "mail-services",
+      "tags": [
+        "域名邮箱",
+        "邮箱服务",
+        "自动发货"
+      ],
+      "featured": false,
+      "visits": 102,
+      "todayClicks": 1,
+      "createdAt": "2026-09-30T04:37:11.252Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "c92c0939-0eda-48e7-a6d5-cf626d0636f4",
+      "name": "16688",
+      "url": "https://www.16688.com.cn/",
+      "description": "数字卡密自动交易平台，提供货源广场、在线开店与虚拟商品自动交付服务。",
+      "category": "digital-cards",
+      "tags": [
+        "数字卡密",
+        "自动发货",
+        "货源广场"
+      ],
+      "featured": false,
+      "visits": 9,
+      "todayClicks": 1,
+      "createdAt": "2026-09-30T04:37:11.251Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "f757bfdc-3200-4d9f-8dcd-09915f62da2a",
+      "name": "AI888 CDK 小店 UPI提链",
+      "url": "https://wzyp.cn/shop/ai888",
+      "description": "AI888 Quick Link 提链平台的 CDK 购买入口，具体套餐、次数、库存和售后信息以店铺实时展示为准。",
+      "category": "upi-zone",
+      "tags": [
+        "AI888",
+        "CDK",
+        "UPI提链"
+      ],
+      "featured": false,
+      "visits": 58,
+      "todayClicks": 3,
+      "createdAt": "2026-09-29T17:48:36.095Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "3783879e-9159-4221-8a6b-cf4064d90818",
+      "name": "AI888 Quick Link 提链",
+      "url": "https://ticdk.linlinflow.ccwu.cc/ticdk/",
+      "description": "菲律宾 / GCash / 韩国 / 印度 UPI / iDEAL / PIX 一键提链，支持批量 AT、并发任务与近 12 小时线路状态。\n\n免费 CDK（5 次并发，先到先用）：\nAI888-3GZL-DZEL-4TZ5\nAI888-97XA-SU77-MV4Y\nAI888-TKHL-KH37-VQMN\nAI888-ZLFD-3KXL-BBZY\nAI888-WMYV-669A-UNDE\nAI888-9QUY-MHTB-U2J7\nAI888-WW42-HRG5-UX5Y\nAI888-BVT4-9MG2-2YUR\nAI888-KHVE-F4W7-7FEL\nAI888-T2Y3-VNA6-SSHV",
+      "category": "upi-zone",
+      "tags": [
+        "UPI提链",
+        "免费CDK",
+        "批量任务"
+      ],
+      "featured": false,
+      "visits": 173,
+      "todayClicks": 2,
+      "createdAt": "2026-09-29T17:18:47.828Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "15eba9ef-f6ec-4984-ba3e-f4b5d309cea3",
+      "name": "UPI Console 雇主中心 扫码",
+      "url": "https://upi.xxsyun.xyz/",
+      "description": "UPI 扫码订单管理平台，提供任务提交、订单记录、CDK 额度、API 对接以及消息与投诉入口。",
+      "category": "upi-zone",
+      "tags": [
+        "UPI扫码",
+        "订单管理",
+        "API"
+      ],
+      "featured": false,
+      "visits": 105,
+      "todayClicks": 2,
+      "createdAt": "2026-09-29T16:27:13.100Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "970b812f-3543-443e-8e41-7392dd15ccea",
+      "name": "reverse-skill 逆向技能路由包",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "description": "面向 AI Agent 的开源逆向、授权渗透测试与安全研究技能路由包，支持按场景选择方法并按需启动工具链。",
+      "category": "blog",
+      "tags": [
+        "逆向工程",
+        "AI Agent",
+        "安全研究"
+      ],
+      "featured": false,
+      "visits": 49,
+      "todayClicks": 0,
+      "createdAt": "2026-09-29T15:15:39.148Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "373ad355-ac5a-4956-b789-718596bc9593",
+      "name": "ChatGPT 批量注册与支付探测工具链",
+      "url": "https://github.com/jiangjin934/gpt-reg-review",
+      "description": "开源 ChatGPT 账号批量注册与支付能力探测工具，支持纯协议/浏览器双引擎、邮箱池、代理池和可视化 WebUI。",
+      "category": "blog",
+      "tags": [
+        "ChatGPT",
+        "批量注册",
+        "支付探测"
+      ],
+      "featured": false,
+      "visits": 201,
+      "todayClicks": 1,
+      "createdAt": "2026-09-29T13:54:59.651Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "57b7df7d-33b2-4038-ab7f-6e44836857ed",
+      "name": "奥特质量邮箱开源系统",
+      "url": "https://github.com/cljh1190-rgb/postal-inbox-system",
+      "description": "开源自建收件系统，支持域名管理、批量生成邮箱、免登录收件链接与验证码快速提取。",
+      "category": "blog",
+      "tags": [
+        "开源邮箱",
+        "验证码收件",
+        "自建服务"
+      ],
+      "featured": false,
+      "visits": 81,
+      "todayClicks": 0,
+      "createdAt": "2026-09-29T11:00:19.536Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "7af7ca17-77c3-4210-a881-7f52a6433c51",
+      "name": "动态IP",
+      "url": "https://wpa.qq.com/msgrd?v=3&uin=1239314037&site=qq&menu=yes",
+      "description": "动态IP最低价，业务咨询请联系 QQ：1239314037。",
+      "category": "ip-services",
+      "tags": [
+        "动态IP",
+        "IP资源",
+        "低价"
+      ],
+      "featured": false,
+      "visits": 192,
+      "todayClicks": 1,
+      "createdAt": "2026-09-29T09:35:49.965Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "27d850cc-54b1-44b4-afa7-a7707c3fdd6c",
+      "name": "全球纯净静态住宅ip供应",
+      "url": "https://qm.qq.com/q/2MArPhfrZm",
+      "description": "全球原生住宅 IP（双ISP 段）国内直连\n静态固定、长期不变、不跳地区\n独享 / 纯净，低封号风险，稳定在线、低延迟、\n支持 SOCKS5/HTTP，兼容指纹浏览器（AdsPower、候鸟、比特）\n地区全：美 / 英 / 加 / 德 / 法 / 日 / 韩 / 东南亚等\n一对一 搭建一条也交付 店群也可以配置，服务个人、工作室、跨境团队、外贸公司来合作 资源对接\n群号：1084770389",
+      "category": "qq-groups",
+      "tags": [],
+      "featured": false,
+      "visits": 81,
+      "todayClicks": 2,
+      "createdAt": "2026-09-29T09:24:43.658Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "aaacea8a-cfdd-498d-b5c5-08ee081cb0a2",
+      "name": "卤蛋 upi 扫码",
+      "url": "https://ludan.hjlyy.shop/employerLogin",
+      "description": "UPI小站 3黑奴 upi 扫码支付",
+      "category": "digital-cards",
+      "tags": [
+        "upi 扫码支付"
+      ],
+      "featured": false,
+      "visits": 149,
+      "todayClicks": 1,
+      "createdAt": "2026-09-29T06:33:08.466Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "183529b7-9313-4579-ac2d-8401c913f9a8",
+      "name": "icloud  接码free 账密2fa",
+      "url": "https://catfk.com/shop/ZPYQAZ3U/m473tl",
+      "description": "icloud  接码free 账密2fa   可直接导入sub cpa使用  售后赠送改2fa 401 重新授权工具",
+      "category": "digital-cards",
+      "tags": [],
+      "featured": false,
+      "visits": 109,
+      "todayClicks": 0,
+      "createdAt": "2026-09-29T05:32:20.871Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": true,
+      "source": "directory"
+    },
+    {
+      "id": "94824a87-c06a-450b-b8ab-d65321395593",
+      "name": "邮箱接码平台",
+      "url": "https://sv7.cn/",
+      "description": "Icloud mail.com 域名邮箱 \n专业的邮箱验证码接收服务，支持 Icloud mail.com Proton等主流邮箱。 提供高精度验证码识别 API，毫秒级响应，助力您的业务自动化。\n支持一键配置，完美适配主流邮箱服务商",
+      "category": "mail-services",
+      "tags": [
+        "邮箱接码",
+        "Icloud邮箱",
+        "Mail邮箱"
+      ],
+      "featured": false,
+      "visits": 359,
+      "todayClicks": 0,
+      "createdAt": "2026-09-29T05:32:20.869Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "28543de8-c5a4-4607-942a-466e822b229d",
+      "name": "5x头车批发群",
+      "url": "https://qm.qq.com/q/3OArQDIsb6",
+      "description": "打广告群里发红包 不低于10块 谢谢\n群号：2153076110",
+      "category": "qq-groups",
+      "tags": [
+        "team5x",
+        "便宜",
+        "批发"
+      ],
+      "featured": false,
+      "visits": 55,
+      "todayClicks": 0,
+      "createdAt": "2026-09-29T04:50:13.486Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "d7316e2f-9339-41ce-932d-45663e79bd2f",
+      "name": "爬虫逆向AI开源",
+      "url": "https://qm.qq.com/q/cZwVkRx6fu",
+      "description": "禁止议政\n禁止黄赌毒\n可以分享自己的开源项目\n禁止商业化引流广告和任何形式的群二维码联系方式等\n群号：1106856963",
+      "category": "qq-groups",
+      "tags": [
+        "爬虫",
+        "逆向",
+        "AI逆向工程"
+      ],
+      "featured": false,
+      "visits": 77,
+      "todayClicks": 2,
+      "createdAt": "2026-09-29T04:37:51.288Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "ad0b5fbc-193f-4a62-97e3-3519b81b6928",
+      "name": "IC接码free",
+      "url": "https://free.gmailopenai.com/",
+      "description": "6毛接码free",
+      "category": "sms-services",
+      "tags": [],
+      "featured": false,
+      "visits": 113,
+      "todayClicks": 1,
+      "createdAt": "2026-09-29T04:29:49.539Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "aeabe75f-84cb-49f3-9d7f-aa6603433d8d",
+      "name": "优秀羊毛分享【站长推荐】",
+      "url": "https://qm.qq.com/",
+      "description": "每天分享各项AI羊毛经验\n群号：636922735",
+      "category": "qq-groups",
+      "tags": [
+        "羊毛分享"
+      ],
+      "featured": false,
+      "visits": 128,
+      "todayClicks": 1,
+      "createdAt": "2026-09-29T04:29:49.533Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "236c5981-a582-45b3-887b-61b09b90598a",
+      "name": "小狸提链",
+      "url": "https://upi.xiaoliai.shop/",
+      "description": "提链便宜",
+      "category": "upi-zone",
+      "tags": [],
+      "featured": false,
+      "visits": 160,
+      "todayClicks": 0,
+      "createdAt": "2026-09-29T04:11:00.654Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "b994a42e-2d82-4984-8072-5781d258add8",
+      "name": "矩阵智慧",
+      "url": "https://wzyp.cn/shop/Mama",
+      "description": "便宜耐活高质量 源头产出",
+      "category": "digital-cards",
+      "tags": [],
+      "featured": false,
+      "visits": 112,
+      "todayClicks": 4,
+      "createdAt": "2026-09-29T03:33:52.330Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "b5ec0622-c786-4d61-9d9c-667e3cf0b2a4",
+      "name": "省心云卡",
+      "url": "https://wzyp.cn/shop/shengxin",
+      "description": "QQ群：1063819344(有问题找管理)gpt绑卡焚决无偿传授就在群里！！！",
+      "category": "digital-cards",
+      "tags": [],
+      "featured": false,
+      "visits": 75,
+      "todayClicks": 0,
+      "createdAt": "2026-09-29T03:33:43.624Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "166de1e5-004e-4510-803b-934fc68c5d32",
+      "name": "省心云卡官方交流群",
+      "url": "https://qm.qq.com/q/hOLhrd3Yti",
+      "description": "ai技术，开源，注册机，羊毛福利分享群\n群号：1063819344",
+      "category": "qq-groups",
+      "tags": [],
+      "featured": false,
+      "visits": 60,
+      "todayClicks": 0,
+      "createdAt": "2026-09-29T03:33:40.870Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "a2e2b1b1-ed5a-4c74-87eb-0ab5c1a9a8e1",
+      "name": "奥特开源交流",
+      "url": "https://qm.qq.com/q/5Oqrx6teCI",
+      "description": "开源各种羊毛工具分享\n群号：125622278",
+      "category": "qq-groups",
+      "tags": [
+        "羊毛分享"
+      ],
+      "featured": false,
+      "visits": 57,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T17:36:56.713Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "b46e1f2c-1845-48ff-b981-b978c37883ef",
+      "name": "皮蛋群【GPT源头】",
+      "url": "https://qm.qq.com/q/IQsn7yTGym",
+      "description": "GPT源头，扫码，提链，team5x源头，PLUS日抛源头\n群号：1042096408",
+      "category": "qq-groups",
+      "tags": [
+        "GPT",
+        "upi提链",
+        "upi",
+        "momo",
+        "GC",
+        "plus",
+        "代充"
+      ],
+      "featured": false,
+      "visits": 65,
+      "todayClicks": 1,
+      "createdAt": "2026-09-28T17:30:32.814Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "f1469b36-68a8-4993-b204-cde75f0eda7d",
+      "name": "查Q",
+      "url": "https://qb.heikebook.com/",
+      "description": "查Q",
+      "category": "reverse",
+      "tags": [
+        "查绑"
+      ],
+      "featured": false,
+      "visits": 89,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T17:26:51.423Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "b9b7f465-524c-42de-85d5-646c570d570f",
+      "name": "gpt查额度开源 QQ2930480089",
+      "url": "https://github.com/Cskerrrrr/Codex-Token-Monitor",
+      "description": "开源查询GPT额度",
+      "category": "blog",
+      "tags": [
+        "查询GPT"
+      ],
+      "featured": false,
+      "visits": 48,
+      "todayClicks": 1,
+      "createdAt": "2026-09-28T17:24:57.657Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "93f90ecb-2a9c-4f94-9bfb-e7a2468a8f2d",
+      "name": "Spotify",
+      "url": "https://open.spotify.com/",
+      "description": "全球音乐流媒体服务平台。",
+      "category": "intl",
+      "tags": [
+        "音乐",
+        "流媒体",
+        "收听"
+      ],
+      "featured": false,
+      "visits": 6,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T17:01:49.636Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "b3f31c2c-6d2f-414d-bec1-049aeff630cc",
+      "name": "LMArena",
+      "url": "https://lmarena.ai/",
+      "description": "大语言模型匿名对战与排行榜。",
+      "category": "ai-models",
+      "tags": [
+        "大模型",
+        "对战",
+        "排行榜"
+      ],
+      "featured": false,
+      "visits": 25,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T17:01:49.636Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "d55a1493-9bbf-4011-a668-03b23f63d2db",
+      "name": "Cursor",
+      "url": "https://cursor.com/",
+      "description": "面向开发者的 AI 代码编辑器。",
+      "category": "resources",
+      "tags": [
+        "AI编程",
+        "编辑器",
+        "开发"
+      ],
+      "featured": false,
+      "visits": 13,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T17:01:49.636Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "6ea58484-7360-42d3-bca2-11fce813fa4a",
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com/",
+      "description": "知名 AI 图像生成服务。",
+      "category": "design",
+      "tags": [
+        "AI绘画",
+        "图像生成",
+        "创作"
+      ],
+      "featured": false,
+      "visits": 4,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T17:01:49.635Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "7a9eff8f-ad6c-4e49-ae2d-e16e6fc9ca52",
+      "name": "CodePen",
+      "url": "https://codepen.io/",
+      "description": "前端代码在线编辑与作品分享社区。",
+      "category": "resources",
+      "tags": [
+        "前端",
+        "在线编辑",
+        "作品"
+      ],
+      "featured": false,
+      "visits": 11,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T17:01:49.635Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "381baf83-776d-428e-b7ac-a5261e83cbc8",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/",
+      "description": "全球性兴趣社区与讨论论坛聚合平台。",
+      "category": "intl",
+      "tags": [
+        "社区",
+        "讨论",
+        "兴趣"
+      ],
+      "featured": false,
+      "visits": 17,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T17:01:49.634Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "f5ef7795-f996-4455-8c96-64041c8d840c",
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com/",
+      "description": "发现全球新产品与创业项目的发布平台。",
+      "category": "intl",
+      "tags": [
+        "新产品",
+        "创业",
+        "发现"
+      ],
+      "featured": false,
+      "visits": 15,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T17:01:49.634Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "0d474329-46ad-4319-ad1d-529363880558",
+      "name": "智谱 BigModel",
+      "url": "https://bigmodel.cn/",
+      "description": "智谱开放平台，提供 GLM 系列模型与免费额度。",
+      "category": "ai-deals",
+      "tags": [
+        "GLM",
+        "开放平台",
+        "免费额度"
+      ],
+      "featured": false,
+      "visits": 32,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T16:29:23.132Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "7792f400-4ac6-4909-bef2-e41267ffdeea",
+      "name": "扣子 Coze",
+      "url": "https://www.coze.cn/",
+      "description": "AI 智能体开发平台，可免费创建与发布 Bot。",
+      "category": "ai",
+      "tags": [
+        "智能体",
+        "Bot",
+        "免费创建"
+      ],
+      "featured": false,
+      "visits": 9,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T16:29:23.132Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "aa922020-6d5b-4801-a5aa-12f2a6b9e67d",
+      "name": "LINUX DO",
+      "url": "https://linux.do/",
+      "description": "技术社区，常见 AI 服务福利与试用信息分享。",
+      "category": "ai-deals",
+      "tags": [
+        "社区",
+        "福利",
+        "AI"
+      ],
+      "featured": false,
+      "visits": 43,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T16:29:23.132Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "efbf46c7-506a-46dc-9fc3-3d1dfc980d15",
+      "name": "Cloudflare Workers AI",
+      "url": "https://developers.cloudflare.com/workers-ai/",
+      "description": "Cloudflare 边缘 AI 推理服务与免费额度说明。",
+      "category": "ai-deals",
+      "tags": [
+        "边缘推理",
+        "免费额度",
+        "文档"
+      ],
+      "featured": false,
+      "visits": 19,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T16:29:23.132Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "ffb56642-facb-4e5b-bd9f-1b648ccdcacb",
+      "name": "ModelScope 魔搭",
+      "url": "https://modelscope.cn/",
+      "description": "模型开源社区，支持在线体验与免费推理服务。",
+      "category": "ai-models",
+      "tags": [
+        "模型社区",
+        "在线体验",
+        "开源"
+      ],
+      "featured": false,
+      "visits": 15,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T16:29:23.132Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "14e41271-1dec-4a61-80e4-81cff9524d78",
+      "name": "Cutter",
+      "url": "https://cutter.re/",
+      "description": "基于 Rizin 引擎的开源逆向工程图形界面。",
+      "category": "reverse",
+      "tags": [
+        "逆向",
+        "图形界面",
+        "开源"
+      ],
+      "featured": false,
+      "visits": 19,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T16:29:23.131Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "1608830a-ab83-49a3-aca1-69dde01d0038",
+      "name": "Mobbin",
+      "url": "https://mobbin.com/",
+      "description": "收录移动与网页产品界面截图的 UI 灵感库。",
+      "category": "resources",
+      "tags": [
+        "灵感",
+        "界面",
+        "截图"
+      ],
+      "featured": false,
+      "visits": 2,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T16:29:23.131Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "3bdc93c1-68a7-4e97-8c98-44c98c3e05e4",
+      "name": "Frida",
+      "url": "https://frida.re/",
+      "description": "面向开发者与安全研究的动态插桩工具包。",
+      "category": "reverse",
+      "tags": [
+        "动态插桩",
+        "Hook",
+        "运行时"
+      ],
+      "featured": false,
+      "visits": 15,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T16:29:23.131Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "b82410e1-ca9b-49a8-8deb-e516ccd0945e",
+      "name": "x64dbg",
+      "url": "https://x64dbg.com/",
+      "description": "Windows 平台开源二进制调试器。",
+      "category": "reverse",
+      "tags": [
+        "调试器",
+        "Windows",
+        "开源"
+      ],
+      "featured": false,
+      "visits": 9,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T16:29:23.131Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "d1e22825-51dd-4880-a400-67e03558cb7e",
+      "name": "Unicorn Engine",
+      "url": "https://www.unicorn-engine.org/",
+      "description": "轻量级多架构 CPU 模拟引擎，常用于代码仿真。",
+      "category": "reverse",
+      "tags": [
+        "CPU模拟",
+        "仿真",
+        "开源"
+      ],
+      "featured": false,
+      "visits": 8,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T16:29:23.131Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "1614d848-4857-4b38-a8f1-01eb4a6377e9",
+      "name": "吾爱破解",
+      "url": "https://www.52pojie.cn/",
+      "description": "软件安全与逆向爱好者的中文技术论坛。",
+      "category": "reverse",
+      "tags": [
+        "安全",
+        "逆向",
+        "论坛"
+      ],
+      "featured": false,
+      "visits": 39,
+      "todayClicks": 1,
+      "createdAt": "2026-09-28T16:29:23.130Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "1d3ddb42-70f2-4ff9-b888-0d42e3edbe5c",
+      "name": "看雪论坛",
+      "url": "https://bbs.kanxue.com/",
+      "description": "中文安全研究与逆向工程技术社区。",
+      "category": "reverse",
+      "tags": [
+        "安全",
+        "逆向",
+        "社区"
+      ],
+      "featured": false,
+      "visits": 19,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T16:29:23.130Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "3f33e761-ca08-4718-982a-1873aad5d0eb",
+      "name": "zcodeknight",
+      "url": "https://github.com/YU123-ZZZ/zcodeknight-YU",
+      "description": "解决手头无token问题。",
+      "category": "blog",
+      "tags": [
+        "zco黑骑士",
+        "反",
+        "开源",
+        "无限token"
+      ],
+      "featured": false,
+      "visits": 60,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T16:27:08.201Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "ee27e2a2-6d89-418b-a02c-fe4f92cd023a",
+      "name": "Nerver AC 资格预检",
+      "url": "https://cha.nerver.cc/",
+      "description": "粘贴 AC Token，秒级核验 ChatGPT 账号资格与优惠活动状态。",
+      "category": "gpt-tools",
+      "tags": [
+        "ChatGPT",
+        "资格核验"
+      ],
+      "featured": false,
+      "visits": 168,
+      "todayClicks": 4,
+      "createdAt": "2026-09-28T16:24:39.034Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "35d15c26-4dbd-47f1-bbca-5d5c2f37a98f",
+      "name": "UPI提链 -廿一",
+      "url": "https://upi.fashionfme.xyz/zl/",
+      "description": "UPI提链 -干一",
+      "category": "upi-zone",
+      "tags": [
+        "UPI提链"
+      ],
+      "featured": false,
+      "visits": 88,
+      "todayClicks": 1,
+      "createdAt": "2026-09-28T15:48:02.596Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "0fdca7c7-a85e-4ac1-8835-67736f9af8a6",
+      "name": "风火轮提链【UPI】",
+      "url": "https://paylink.timeline.kdns.fr/",
+      "description": "风火轮提链【UPI】",
+      "category": "upi-zone",
+      "tags": [
+        "UPI",
+        "UPI提链"
+      ],
+      "featured": false,
+      "visits": 91,
+      "todayClicks": 2,
+      "createdAt": "2026-09-28T15:47:24.192Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "ecf2fc4c-5e9c-4f02-93af-70b8774ad59b",
+      "name": "UPI扫码",
+      "url": "https://7s.us.ci/",
+      "description": "UPI扫码站点",
+      "category": "upi-zone",
+      "tags": [
+        "UPI扫码"
+      ],
+      "featured": false,
+      "visits": 277,
+      "todayClicks": 2,
+      "createdAt": "2026-09-28T15:31:43.075Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "8756f90b-12b3-437b-acdd-e8ade6615260",
+      "name": "0.95gpt自动化接码购买地址，解放双手",
+      "url": "https://www.16688.com.cn/shop/HR21",
+      "description": "只需要批量导入账号-密码-2fa，输入卡密，即可自动化进行codex接码，可支持10并发",
+      "category": "sms-services",
+      "tags": [
+        "低价gpt接码服务"
+      ],
+      "featured": false,
+      "visits": 94,
+      "todayClicks": 1,
+      "createdAt": "2026-09-28T15:14:11.274Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "3ac25b30-a442-4232-a602-6384f9814fdc",
+      "name": "5X头车",
+      "url": "https://wzyp.cn/shop/N301K7UV",
+      "description": "5x 不降智 不限速头车",
+      "category": "digital-cards",
+      "tags": [
+        "team5x"
+      ],
+      "featured": false,
+      "visits": 283,
+      "todayClicks": 3,
+      "createdAt": "2026-09-28T15:04:36.022Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "51d7af5e-d26f-4572-b7f1-adaec9bba6f1",
+      "name": "XQL 提链公益站",
+      "url": "https://link.xqlbest.com/",
+      "description": "XQL 多用户实时提链工作台，提供 UPI 提链任务入口。",
+      "category": "upi-zone",
+      "tags": [
+        "提链",
+        "公益站",
+        "UPI"
+      ],
+      "featured": false,
+      "visits": 96,
+      "todayClicks": 1,
+      "createdAt": "2026-09-28T14:05:10.152Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "80e9ee60-a64b-4a0a-82f6-3197395b7b29",
+      "name": "流光 CDK 购买地址",
+      "url": "https://wzyp.cn/shop/lumen-ai",
+      "description": "流光 CDK 商品购买入口；页面内容与可用性以站点实际展示为准。",
+      "category": "upi-zone",
+      "tags": [
+        "流光",
+        "CDK",
+        "购买地址",
+        "UPI提链"
+      ],
+      "featured": false,
+      "visits": 137,
+      "todayClicks": 4,
+      "createdAt": "2026-09-28T14:05:10.150Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "a9765dbf-d5ed-4f46-b6d7-029e9fd04039",
+      "name": "奥特质量邮箱",
+      "url": "https://mail.knm03.com/",
+      "description": "在线邮箱服务入口；具体可用性与条款以站点实际说明为准。",
+      "category": "mail-services",
+      "tags": [
+        "邮箱",
+        "验证码"
+      ],
+      "featured": false,
+      "visits": 155,
+      "todayClicks": 2,
+      "createdAt": "2026-09-28T13:18:15.749Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "f2615569-cbfd-449f-94a9-d8bdd788246c",
+      "name": "HeroSMS",
+      "url": "https://hero-sms.com/",
+      "description": "提供在线短信接收与 API 接入服务。",
+      "category": "sms-services",
+      "tags": [],
+      "featured": false,
+      "visits": 57,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T10:40:15.659Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "20d1f2f1-310e-4c68-8a5c-7579d931a069",
+      "name": "PriceAI",
+      "url": "https://priceai.cc/",
+      "description": "AI 订阅与 API 服务比价平台。",
+      "category": "gpt-tools",
+      "tags": [],
+      "featured": false,
+      "visits": 92,
+      "todayClicks": 1,
+      "createdAt": "2026-09-28T10:40:15.658Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "2c481876-3b9f-42f7-afdf-ed9acc4c8071",
+      "name": "卡网大全",
+      "url": "https://cardnav.xyz/",
+      "description": "汇集 AI 账号、订阅与中转站信息的导航。",
+      "category": "digital-cards",
+      "tags": [],
+      "featured": false,
+      "visits": 396,
+      "todayClicks": 9,
+      "createdAt": "2026-09-28T10:40:15.658Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "899d2bf5-22ae-4145-986a-1fc8d2c22246",
+      "name": "PickAI",
+      "url": "https://pickai.cc/",
+      "description": "AI 订阅与卡网比价平台。",
+      "category": "gpt-tools",
+      "tags": [],
+      "featured": false,
+      "visits": 218,
+      "todayClicks": 2,
+      "createdAt": "2026-09-28T10:40:15.658Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "28997375-07de-4cb3-9347-73fab8b5a494",
+      "name": "【皮蛋扫码】UPI Scan",
+      "url": "https://masi.cc.cd/extract#history",
+      "description": "扫码任务与订单动态查询入口。",
+      "category": "upi-zone",
+      "tags": [],
+      "featured": false,
+      "visits": 193,
+      "todayClicks": 1,
+      "createdAt": "2026-09-28T10:40:15.657Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "0236ce7e-1968-49e4-8534-b4047073fc29",
+      "name": "Wikipedia",
+      "url": "https://www.wikipedia.org/",
+      "description": "由全球志愿者共同编辑的多语言百科全书。",
+      "category": "reading",
+      "tags": [
+        "百科",
+        "知识"
+      ],
+      "featured": false,
+      "visits": 1,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "057b5f78-e1bc-403d-9479-636dc2111ec1",
+      "name": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu/",
+      "description": "免费学习麻省理工学院公开的课程资料。",
+      "category": "reading",
+      "tags": [
+        "课程",
+        "学习"
+      ],
+      "featured": false,
+      "visits": 1,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "2892a036-7006-46f0-acb6-8fc31ae9623f",
+      "name": "Internet Archive",
+      "url": "https://archive.org/",
+      "description": "探索书籍、网页历史与数字文化档案。",
+      "category": "resources",
+      "tags": [
+        "档案",
+        "数字图书馆"
+      ],
+      "featured": false,
+      "visits": 4,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "5901d3ef-870e-406e-8af4-48b91d38797a",
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/",
+      "description": "通过课程与实践项目学习编程技能。",
+      "category": "reading",
+      "tags": [
+        "编程",
+        "课程"
+      ],
+      "featured": false,
+      "visits": 3,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "852cb51d-e418-438c-838b-a79bd7dec6a5",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai/",
+      "description": "结合来源引用的 AI 搜索与研究工具。",
+      "category": "ai",
+      "tags": [
+        "搜索",
+        "研究"
+      ],
+      "featured": false,
+      "visits": 4,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "b588b158-9d9c-44d1-9dbf-05391f84bbf1",
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com/",
+      "description": "围绕实际编程问题积累知识的开发者问答社区。",
+      "category": "resources",
+      "tags": [
+        "问答",
+        "编程"
+      ],
+      "featured": false,
+      "visits": 2,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "ea5c3235-306e-4262-846c-fe4dbc76f8da",
+      "name": "Notion",
+      "url": "https://www.notion.so/",
+      "description": "整合笔记、项目管理与团队知识库的工作空间。",
+      "category": "productivity",
+      "tags": [
+        "笔记",
+        "协作"
+      ],
+      "featured": false,
+      "visits": 5,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "ed127602-9b9a-4fdb-8ae1-faad596517bc",
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/",
+      "description": "查询 HTML、CSS、JavaScript 与 Web 标准文档。",
+      "category": "resources",
+      "tags": [
+        "文档",
+        "Web"
+      ],
+      "featured": false,
+      "visits": 8,
+      "todayClicks": 0,
+      "createdAt": "2026-09-28T07:21:57.376Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "directory"
+    },
+    {
+      "id": "tool-aee8ec91f891",
+      "name": "Kimi",
+      "url": "https://www.kimi.com",
+      "description": "通过对话阅读资料、梳理信息与辅助日常工作。",
+      "category": "ai-models",
+      "tags": [
+        "中文",
+        "阅读"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-eb27ae713ec4",
+      "name": "通义千问",
+      "url": "https://www.qianwen.com",
+      "description": "面向日常问答、内容创作和多模态理解的智能助手。",
+      "category": "ai-models",
+      "tags": [
+        "中文",
+        "多模态"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-81d0d6fe6a9d",
+      "name": "Adobe Firefly",
+      "url": "https://firefly.adobe.com",
+      "description": "连接图像生成与设计编辑的创意制作入口。",
+      "category": "ai",
+      "tags": [
+        "设计",
+        "图像编辑"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-078eb582df16",
+      "name": "Ideogram",
+      "url": "https://ideogram.ai",
+      "description": "围绕图像与文字排版探索海报、标识和视觉创意。",
+      "category": "ai",
+      "tags": [
+        "文字设计",
+        "海报"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-9ecefd35e4c3",
+      "name": "可灵 AI",
+      "url": "https://klingai.com",
+      "description": "以文字描述或图像参考开始视频片段制作。",
+      "category": "ai-video",
+      "tags": [
+        "视频生成",
+        "图生视频"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-d61700194cf7",
+      "name": "Runway",
+      "url": "https://runwayml.com",
+      "description": "面向影像创作者的生成与编辑工作空间。",
+      "category": "ai-video",
+      "tags": [
+        "影像",
+        "编辑"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-ec57d26d0bcb",
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
+      "description": "在开发工作流中获得代码建议与项目问题辅助。",
+      "category": "gpt-tools",
+      "tags": [
+        "代码辅助",
+        "开发"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-0d998d5fbaf2",
+      "name": "Continue",
+      "url": "https://www.continue.dev",
+      "description": "为开发者组织可定制的 AI 编码工作流。",
+      "category": "gpt-tools",
+      "tags": [
+        "开源",
+        "编码"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-d57801422bd9",
+      "name": "Aider",
+      "url": "https://aider.chat",
+      "description": "在终端中结合现有代码仓库开展 AI 辅助编程。",
+      "category": "gpt-tools",
+      "tags": [
+        "终端",
+        "开源"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-0433b087f884",
+      "name": "Dify",
+      "url": "https://dify.ai",
+      "description": "将提示词、知识与工作流组织为可运行的 AI 应用。",
+      "category": "ai",
+      "tags": [
+        "工作流",
+        "开源"
+      ],
+      "featured": true,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-2b29777c0b5a",
+      "name": "n8n",
+      "url": "https://n8n.io",
+      "description": "连接应用、数据与 AI 节点，构建自动化流程。",
+      "category": "ai",
+      "tags": [
+        "自动化",
+        "工作流"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-669e095856e6",
+      "name": "Langflow",
+      "url": "https://www.langflow.org",
+      "description": "以可视化组件构建与调试智能体应用。",
+      "category": "ai",
+      "tags": [
+        "可视化",
+        "开源"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-9e9db2e08ffe",
+      "name": "Suno",
+      "url": "https://suno.com",
+      "description": "从想法与文字描述开始探索音乐创作。",
+      "category": "ai",
+      "tags": [
+        "音乐",
+        "生成"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-db294b56b3bb",
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io",
+      "description": "用于语音合成、音色设计和音频制作的工具集合。",
+      "category": "ai",
+      "tags": [
+        "配音",
+        "语音"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-4a3141e52198",
+      "name": "Whisper",
+      "url": "https://github.com/openai/whisper",
+      "description": "开源语音识别项目，适合自建转写与字幕处理流程。",
+      "category": "ai",
+      "tags": [
+        "开源",
+        "转写"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-5750fa4b7386",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai",
+      "description": "集中查看模型入口并为应用对接模型服务。",
+      "category": "ai-models",
+      "tags": [
+        "模型接口",
+        "开发"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-d19d8ed73524",
+      "name": "硅基流动",
+      "url": "https://siliconflow.cn",
+      "description": "面向开发者的模型推理与应用接入平台。",
+      "category": "ai-models",
+      "tags": [
+        "推理",
+        "中文"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-ae0df63eb94c",
+      "name": "Ollama",
+      "url": "https://ollama.com",
+      "description": "在自己的设备上运行和管理模型。",
+      "category": "ai-models",
+      "tags": [
+        "本地模型",
+        "开源"
+      ],
+      "featured": true,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-9564f66ddc16",
+      "name": "Hugging Face",
+      "url": "https://huggingface.co",
+      "description": "查找模型、数据集与可体验的开源机器学习应用。",
+      "category": "resources",
+      "tags": [
+        "模型",
+        "数据集"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    },
+    {
+      "id": "tool-54898e8cd963",
+      "name": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai",
+      "description": "通过独立评测与方法说明了解模型能力和使用成本。",
+      "category": "resources",
+      "tags": [
+        "模型评测",
+        "选型"
+      ],
+      "featured": false,
+      "visits": 0,
+      "todayClicks": 0,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "sponsorPinUntil": null,
+      "relayOffer": null,
+      "hasContact": false,
+      "source": "catalog"
+    }
+  ],
+  "submissions": [],
+  "reviews": []
+}

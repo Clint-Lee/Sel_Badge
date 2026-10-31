@@ -1,26 +1,71 @@
 import {
-  MessageSquare,
-  Image,
-  Clapperboard,
-  Code2,
-  AudioLines,
-  Workflow,
-  Cpu,
-  BookOpen,
   LayoutGrid,
   Star,
+  Clock,
+  Sparkles,
+  BookOpen,
+  Image,
+  Clapperboard,
+  Cpu,
+  Package,
+  Wallet,
+  MessageSquare,
+  KeyRound,
+  ShieldCheck,
+  Mail,
+  Code2,
+  Flame,
+  Globe,
+  Tags,
+  Users,
+  Network,
 } from "lucide-vue-next";
-export const TOOL_CATEGORIES = [
-  { id: "all", label: "全部工具", icon: LayoutGrid },
-  { id: "assistant", label: "AI 对话", icon: MessageSquare },
-  { id: "image", label: "图像设计", icon: Image },
-  { id: "video", label: "视频创作", icon: Clapperboard },
-  { id: "coding", label: "编程开发", icon: Code2 },
-  { id: "audio", label: "音频音乐", icon: AudioLines },
-  { id: "agent", label: "智能体与工作流", icon: Workflow },
-  { id: "api", label: "模型与 API", icon: Cpu },
-  { id: "learning", label: "开源与学习", icon: BookOpen },
-  { id: "favorites", label: "我的收藏", icon: Star },
+
+/** 侧栏固定入口：全部 / 今日精选 / 收藏 / 最近 30 天。 */
+export const SITE_VIEWS = [
+  { key: "all", label: "全部网站", icon: LayoutGrid },
+  { key: "featured", label: "今日精选", icon: Sparkles },
+  { key: "favorites", label: "我的收藏", icon: Star },
+  { key: "recent", label: "最近收录", icon: Clock },
+] as const;
+
+/** 分类图标按 id 映射；未登记的分类用默认图标。 */
+const ICONS: Record<string, typeof LayoutGrid> = {
+  ai: Sparkles,
+  design: Image,
+  productivity: BookOpen,
+  resources: Package,
+  reading: BookOpen,
+  "gpt-tools": MessageSquare,
+  "api-relays": Network,
+  "digital-cards": Wallet,
+  "sms-services": KeyRound,
+  "ai-models": Cpu,
+  "mail-services": Mail,
+  "reverse": ShieldCheck,
+  "ai-deals": Flame,
+  intl: Globe,
+  "qq-groups": Users,
+  "ip-services": Network,
+  blog: Code2,
+  "upi-zone": Wallet,
+  "virtual-cards": Wallet,
+  skills: Tags,
+  "ai-video": Clapperboard,
+};
+
+export const categoryIcon = (id: string) => ICONS[id] || LayoutGrid;
+
+export const SITE_SORTS = [
+  { value: "recommended", label: "推荐排序" },
+  { value: "popular", label: "访问最多" },
+  { value: "newest", label: "最新收录" },
+  { value: "name", label: "名称排序" },
 ];
-export const categoryFor = (id: string) =>
-  TOOL_CATEGORIES.find((x) => x.id === id) || TOOL_CATEGORIES[0];
+
+/** 收录类型：普通网站 / 商家自荐 / QQ群。 */
+export const SUBMISSION_KINDS = [
+  { value: "website", label: "网站收录" },
+  { value: "merchant", label: "商家自荐" },
+  { value: "qq-group", label: "QQ群收录" },
+];

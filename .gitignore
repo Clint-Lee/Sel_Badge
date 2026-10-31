@@ -9,6 +9,9 @@ backend/data/
 *.log
 .cache-*.log
 
+# 采集断点缓存（可重跑生成）
+.cache-priceai/
+
 # IDE
 .idea/
 .vscode/

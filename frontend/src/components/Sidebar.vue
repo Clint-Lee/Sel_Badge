@@ -125,10 +125,11 @@ const handleLogout = () => {
   display: flex;
   align-items: center;
   gap: 10px;
-  height: 36px;
-  padding: 0 10px;
+  height: 38px;
+  padding: 0 11px;
   border-radius: var(--radius-s);
   font-size: 14px;
+  font-weight: 550;
   color: var(--ink-2);
   transition: background 0.12s, color 0.12s;
 }
@@ -138,7 +139,7 @@ const handleLogout = () => {
 .side-link.active {
   background: var(--accent-tint);
   color: var(--accent-ink);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .side-bottom {
@@ -163,13 +164,13 @@ const handleLogout = () => {
 .user-card:hover { background: var(--surface-2); }
 
 .avatar {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   background: var(--accent-tint);
   color: var(--accent-ink);
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 750;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,20 +180,21 @@ const handleLogout = () => {
 .user-meta {
   display: flex;
   flex-direction: column;
-  line-height: 1.3;
+  line-height: 1.35;
   min-width: 0;
 }
 
 .user-name {
-  font-size: 13.5px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 650;
+  color: var(--ink);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .user-mail {
-  font-size: 13px;
+  font-size: 13.5px;
   color: var(--ink-3);
   white-space: nowrap;
   overflow: hidden;

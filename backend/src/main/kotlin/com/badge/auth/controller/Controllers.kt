@@ -161,6 +161,13 @@ class AuditLogController(
 ) {
 
     /** 审计日志含全体用户的 IP/UA，仅运营者（管理员）可查看。 */
+    /** 个人登录与安全操作记录（面向当前登录用户） */
+    @GetMapping("/my-logs")
+    fun getMyLogs(authentication: org.springframework.security.core.Authentication): ApiResponse<List<AuditLogDto>> {
+        val logs = auditLogService.getUserLogs(authentication.name)
+        return ApiResponse.success(logs)
+    }
+
     @GetMapping("/logs")
     @org.springframework.security.access.prepost.PreAuthorize("hasRole('ADMIN')")
     fun getLogs(): ApiResponse<List<AuditLogDto>> {

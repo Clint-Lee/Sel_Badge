@@ -249,9 +249,9 @@ const handleSubmit = async () => {
   position: absolute;
   left: 32px;
   bottom: 28px;
-  font-size: 13px;
+  font-size: 13.5px;
   letter-spacing: 0.22em;
-  color: rgba(217, 239, 230, 0.4);
+  color: rgba(217, 239, 230, 0.6);
 }
 
 /* 右侧表单 */
@@ -263,12 +263,12 @@ const handleSubmit = async () => {
   padding: 40px 24px;
 }
 
-.login-box { width: 100%; max-width: 320px; }
+.login-box { width: 100%; max-width: 360px; }
 
 .mobile-mark {
   display: none;
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   border-radius: 10px;
   background: var(--accent);
   color: #fff;
@@ -289,16 +289,16 @@ const handleSubmit = async () => {
   border: none;
   background: transparent;
   padding: 0 2px 11px;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--ink-3);
+  font-size: 15px;
+  font-weight: 650;
+  color: var(--ink-2);
   cursor: pointer;
   transition: color 0.15s;
 }
 
 .mode-tab:hover { color: var(--ink); }
 
-.mode-tab.active { color: var(--ink); }
+.mode-tab.active { color: var(--ink); font-weight: 700; }
 
 .mode-tab.active::after {
   content: '';
@@ -311,7 +311,7 @@ const handleSubmit = async () => {
   background: var(--accent);
 }
 
-.fields { display: flex; flex-direction: column; gap: 15px; }
+.fields { display: flex; flex-direction: column; gap: 16px; }
 
 .pwd-wrap { position: relative; }
 
@@ -345,8 +345,8 @@ const handleSubmit = async () => {
   gap: 5px;
   border: none;
   background: transparent;
-  font-size: 13px;
-  color: var(--ink-3);
+  font-size: 14px;
+  color: var(--ink-2);
   cursor: pointer;
   padding: 4px 2px;
   border-radius: 5px;
@@ -367,17 +367,17 @@ const handleSubmit = async () => {
 .sso-banner {
   display: flex;
   align-items: center;
-  gap: 7px;
-  padding: 8px 11px;
-  margin-bottom: 14px;
+  gap: 8px;
+  padding: 9px 12px;
+  margin-bottom: 16px;
   border: 1px solid var(--line);
   border-radius: var(--radius-s);
   background: var(--accent-tint);
   color: var(--accent-ink);
-  font-size: 13px;
+  font-size: 14px;
 }
 
-.sso-banner strong { font-weight: 650; }
+.sso-banner strong { font-weight: 700; }
 
 .sso-redirect-panel {
   display: flex;
@@ -387,7 +387,7 @@ const handleSubmit = async () => {
   padding: 34px 10px;
   border: 1px dashed var(--line-strong);
   border-radius: var(--radius-s);
-  color: var(--ink-2);
-  font-size: 13px;
+  color: var(--ink);
+  font-size: 14px;
 }
 </style>

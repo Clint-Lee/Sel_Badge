@@ -207,7 +207,19 @@ class SecurityConfig(
             .sessionManagement { it.sessionCreationPolicy(SessionCreationPolicy.STATELESS) }
             .authorizeHttpRequests { auth ->
                 auth
-                    .requestMatchers(HttpMethod.GET, "/api/portal/tools", "/api/portal/tools/*/reviews", "/api/portal/prices").permitAll()
+                    // 门户公开只读：分类、站点目录、站点详情、评价、报价快照与选品台。
+                    .requestMatchers(HttpMethod.GET,
+                        "/api/portal/categories",
+                        "/api/portal/sites",
+                        "/api/portal/sites/*",
+                        "/api/portal/sites/*/reviews",
+                        "/api/portal/stats",
+                        "/api/portal/prices",
+                        "/api/portal/prices/catalog",
+                        "/api/portal/prices/groups/*/offers"
+                    ).permitAll()
+                    // 访问计数匿名可写：只累加点击，不涉及账号数据。
+                    .requestMatchers(HttpMethod.POST, "/api/portal/sites/*/visit", "/api/portal/prices/catalog/query").permitAll()
                     .requestMatchers(
                         "/api/auth/login",
                         "/api/auth/register",

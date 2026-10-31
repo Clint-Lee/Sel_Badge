@@ -190,15 +190,15 @@ const finish = () => {
 .secret-key {
   width: 96px;
   flex-shrink: 0;
-  font-size: 13px;
-  color: var(--ink-3);
+  font-size: 14px;
+  color: var(--ink-2);
 }
 
 .secret-row code {
   flex: 1;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--ink);
   word-break: break-all;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 </style>

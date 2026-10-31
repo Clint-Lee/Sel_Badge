@@ -109,8 +109,8 @@ const copyUrl = () => {
   justify-content: center;
   gap: 10px;
   padding: 32px;
-  color: var(--ink-3);
-  font-size: 13px;
+  color: var(--ink-2);
+  font-size: 14px;
 }
 
 .ticket-row {
@@ -133,7 +133,7 @@ const copyUrl = () => {
 }
 
 .ticket-val {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--ink);
   overflow: hidden;
   text-overflow: ellipsis;
@@ -141,8 +141,8 @@ const copyUrl = () => {
 }
 
 .countdown {
-  font-size: 15px;
-  font-weight: 650;
+  font-size: 16px;
+  font-weight: 700;
   color: var(--accent-ink);
   flex-shrink: 0;
 }
@@ -155,11 +155,11 @@ const copyUrl = () => {
   border: 1px solid var(--line);
   border-radius: var(--radius-s);
   background: var(--surface-2);
-  max-height: 72px;
+  max-height: 76px;
   overflow: hidden;
 }
 
-.url-text { font-size: 13px; color: var(--ink-2); word-break: break-all; line-height: 1.5; }
+.url-text { font-size: 14px; color: var(--ink-2); word-break: break-all; line-height: 1.55; }
 
 .actions {
   display: flex;
@@ -172,8 +172,8 @@ const copyUrl = () => {
   margin-top: 16px;
   padding-top: 14px;
   border-top: 1px solid var(--line);
-  font-size: 13px;
-  color: var(--ink-3);
-  line-height: 1.6;
+  font-size: 14px;
+  color: var(--ink-2);
+  line-height: 1.65;
 }
 </style>

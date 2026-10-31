@@ -187,14 +187,15 @@ onMounted(async () => {
 }
 
 .brand-mark {
-  width: 27px;
-  height: 27px;
+  width: 28px;
+  height: 28px;
   border-radius: 8px;
   background: var(--accent);
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 2px 6px rgba(17, 112, 88, 0.25);
 }
 
 .brand-text {
@@ -204,15 +205,16 @@ onMounted(async () => {
 }
 
 .brand-name {
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: -0.01em;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  color: var(--ink);
 }
 
 .brand-sub {
   font-size: 13px;
   color: var(--ink-3);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
 }
 
 .tabs {
@@ -231,8 +233,9 @@ onMounted(async () => {
   height: 100%;
   display: inline-flex;
   align-items: center;
-  padding: 0 13px;
-  font-size: 14px;
+  padding: 0 14px;
+  font-size: 14.5px;
+  font-weight: 500;
   color: var(--ink-2);
   white-space: nowrap;
   transition: color 0.14s;
@@ -240,15 +243,15 @@ onMounted(async () => {
 
 .tab:hover { color: var(--ink); }
 
-.tab.active { color: var(--ink); font-weight: 600; }
+.tab.active { color: var(--accent-ink); font-weight: 700; }
 
 .tab.active::after {
   content: '';
   position: absolute;
-  left: 13px;
-  right: 13px;
+  left: 14px;
+  right: 14px;
   bottom: 0;
-  height: 2px;
+  height: 2.5px;
   border-radius: 2px 2px 0 0;
   background: var(--accent);
 }
@@ -258,15 +261,16 @@ onMounted(async () => {
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
+  margin-left: auto;
 }
 
 .head-user .avatar {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   background: var(--accent-tint);
   color: var(--accent-ink);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -299,9 +303,10 @@ onMounted(async () => {
 }
 
 .app-footer {
-  padding: 13px 24px;
+  padding: 14px 28px;
   border-top: 1px solid var(--line);
-  font-size: 13px;
+  background: var(--surface);
+  font-size: 13.5px;
   color: var(--ink-3);
   letter-spacing: 0.03em;
 }

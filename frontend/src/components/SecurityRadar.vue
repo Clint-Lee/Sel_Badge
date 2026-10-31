@@ -153,33 +153,33 @@ const actionBadge = (action) => {
   display: grid;
   grid-template-columns: repeat(4, 1fr) auto;
   gap: 0;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   overflow: hidden;
 }
 
 .stat {
   display: flex;
   flex-direction: column;
-  gap: 1px;
-  padding: 12px 16px;
+  gap: 3px;
+  padding: 16px 20px;
 }
 
 .stat + .stat { border-left: 1px solid var(--line); }
 
 .stat-num {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 800;
   color: var(--ink);
   line-height: 1.25;
 }
 
 .stat-warn { color: var(--red); }
 
-.stat-label { font-size: 13px; color: var(--ink-3); }
+.stat-label { font-size: 14px; color: var(--ink-2); font-weight: 550; }
 
 .stat.algo { justify-content: center; }
 
-.stat-algo { font-size: 13px; color: var(--ink-2); }
+.stat-algo { font-size: 14px; color: var(--ink-2); }
 
 .table-card { overflow: hidden; }
 
@@ -188,7 +188,7 @@ const actionBadge = (action) => {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 12px 14px 9px;
+  padding: 14px 18px 11px;
 }
 
 .loading-panel {
@@ -197,12 +197,12 @@ const actionBadge = (action) => {
   justify-content: center;
   gap: 9px;
   padding: 40px;
-  color: var(--ink-3);
-  font-size: 13px;
+  color: var(--ink-2);
+  font-size: 14px;
 }
 
-.time-cell { font-size: 13px; white-space: nowrap; }
-.client-cell { font-size: 13px; max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.time-cell { font-size: 14px; white-space: nowrap; }
+.client-cell { font-size: 14px; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 @media (max-width: 880px) {
   .stats-strip { grid-template-columns: 1fr 1fr; }

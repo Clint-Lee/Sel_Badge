@@ -150,8 +150,8 @@ const formatDate = (dateStr) => {
   justify-content: center;
   gap: 9px;
   padding: 48px;
-  color: var(--ink-3);
-  font-size: 13px;
+  color: var(--ink-2);
+  font-size: 14px;
 }
 
 .table-card { overflow: hidden; }
@@ -159,13 +159,13 @@ const formatDate = (dateStr) => {
 .app-cell {
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 10px;
   min-width: 0;
 }
 
 .app-dot {
-  width: 8px;
-  height: 8px;
+  width: 9px;
+  height: 9px;
   border-radius: 3px;
   flex-shrink: 0;
 }
@@ -175,24 +175,24 @@ const formatDate = (dateStr) => {
 .app-dot.service { background: var(--blue); }
 .app-dot.wiki    { background: var(--violet); }
 
-.app-cell-text { display: flex; flex-direction: column; line-height: 1.3; min-width: 0; }
+.app-cell-text { display: flex; flex-direction: column; line-height: 1.35; min-width: 0; }
 
-.app-cell-name { font-size: 13px; font-weight: 650; color: var(--ink); }
+.app-cell-name { font-size: 15px; font-weight: 700; color: var(--ink); }
 
-.app-cell-id { font-size: 13px; color: var(--ink-3); }
+.app-cell-id { font-size: 13.5px; color: var(--ink-3); }
 
-.role-text { font-size: 13px; color: var(--ink-2); }
+.role-text { font-size: 14px; color: var(--ink-2); font-weight: 550; }
 
-.time-cell { font-size: 13px; white-space: nowrap; }
+.time-cell { font-size: 14px; white-space: nowrap; }
 
-.row-actions { display: flex; gap: 5px; }
+.row-actions { display: flex; gap: 6px; }
 
 .chev { transition: transform 0.15s; }
 .chev.open { transform: rotate(180deg); }
 
 .expand-row td {
   background: var(--surface-2);
-  padding: 10px 12px 12px 37px;
+  padding: 12px 16px 14px 40px;
 }
 
 .expand-inner { display: flex; flex-direction: column; gap: 6px; }
@@ -200,7 +200,7 @@ const formatDate = (dateStr) => {
 .mini-label {
   font-family: var(--font-mono);
   font-size: 13px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   color: var(--ink-3);
   text-transform: uppercase;
 }

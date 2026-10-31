@@ -80,34 +80,34 @@
 </script>
 
 <style scoped>
-.flow-card { padding: 16px; margin-bottom: 12px; }
+.flow-card { padding: 20px 22px; margin-bottom: 14px; }
 
-.section-title { font-size: 14px; font-weight: 650; margin-bottom: 14px; }
+.section-title { font-size: 16px; font-weight: 750; margin-bottom: 16px; color: var(--ink); }
 
 .flow { display: flex; flex-direction: column; }
 
 .flow-step { display: flex; gap: 14px; align-items: flex-start; }
 
 .flow-no {
-  width: 26px;
-  height: 26px;
+  width: 28px;
+  height: 28px;
   border-radius: 8px;
   background: var(--accent-tint);
   color: var(--accent-ink);
-  font-size: 13px;
-  font-weight: 650;
+  font-size: 14px;
+  font-weight: 750;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
 }
 
-.flow-title { font-size: 13.5px; font-weight: 600; color: var(--ink); }
-.flow-desc { font-size: 13px; color: var(--ink-2); margin-top: 2px; }
+.flow-title { font-size: 15px; font-weight: 700; color: var(--ink); }
+.flow-desc { font-size: 14px; color: var(--ink-2); margin-top: 3px; line-height: 1.6; }
 
 .flow-connector {
-  width: 1px;
-  height: 18px;
+  width: 1.5px;
+  height: 20px;
   background: var(--line);
   margin-left: 13px;
 }
@@ -119,20 +119,20 @@
   margin-bottom: 14px;
 }
 
-.pad { padding: 16px; }
+.pad { padding: 20px 22px; }
 
 .point-list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  font-size: 13px;
+  gap: 11px;
+  font-size: 14.5px;
   color: var(--ink-2);
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 .point-list li {
-  padding-left: 16px;
+  padding-left: 18px;
   position: relative;
 }
 
@@ -141,24 +141,24 @@
   position: absolute;
   left: 0;
   top: 9px;
-  width: 5px;
-  height: 5px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   background: var(--accent);
-  opacity: 0.6;
+  opacity: 0.75;
 }
 
 .todo-list {
-  padding-left: 18px;
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  font-size: 13px;
+  gap: 11px;
+  font-size: 14.5px;
   color: var(--ink-2);
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
-.em { color: var(--accent-ink); font-weight: 600; }
+.em { color: var(--accent-ink); font-weight: 650; }
 
 @media (max-width: 720px) {
   .two-col { grid-template-columns: 1fr; }

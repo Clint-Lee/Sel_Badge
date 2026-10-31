@@ -103,6 +103,54 @@
           </div>
         </form>
       </section>
+
+      <!-- 最近登录与安全活动 -->
+      <section class="card pad span-2">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+          <div>
+            <h3 class="section-title" style="margin-bottom: 2px;">最近登录与安全活动</h3>
+            <span style="font-size: 12px; color: var(--ink-3);">记录你的账号登录（含接入的各子应用）及敏感操作日志</span>
+          </div>
+          <button type="button" class="btn btn-ghost btn-sm" @click="loadMyLogs" :disabled="loadingLogs">
+            <RefreshCw :size="13" :class="{ spin: loadingLogs }" />
+            <span>刷新</span>
+          </button>
+        </div>
+
+        <div v-if="loadingLogs" class="loading-panel" style="padding: 24px; text-align: center; color: var(--ink-3);">
+          <Loader2 :size="16" class="spin" style="margin-right: 6px; display: inline-block; vertical-align: middle;" />
+          <span>正在加载活动日志…</span>
+        </div>
+        <div v-else-if="!myLogs.length" class="empty" style="padding: 20px; text-align: center; color: var(--ink-3);">
+          <span>暂无最近活动记录</span>
+        </div>
+        <div v-else style="overflow-x: auto;">
+          <table class="table" style="width: 100%; border-collapse: collapse; font-size: 13px;">
+            <thead>
+              <tr style="border-bottom: 1px solid var(--border); text-align: left; color: var(--ink-2);">
+                <th style="padding: 8px 10px;">时间</th>
+                <th style="padding: 8px 10px;">动作</th>
+                <th style="padding: 8px 10px;">来源应用</th>
+                <th style="padding: 8px 10px;">IP / 状态</th>
+                <th style="padding: 8px 10px;">详情</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="log in myLogs" :key="log.id" style="border-bottom: 1px solid var(--surface-2);">
+                <td style="padding: 8px 10px;" class="mono">{{ formatDate(log.createdAt) }}</td>
+                <td style="padding: 8px 10px;">
+                  <span class="badge" :class="log.status === 'SUCCESS' ? 'badge-green' : 'badge-warn'">
+                    {{ formatAction(log.action) }}
+                  </span>
+                </td>
+                <td style="padding: 8px 10px;"><span class="mono">{{ log.clientId || 'Badge 门户' }}</span></td>
+                <td style="padding: 8px 10px;" class="mono">{{ log.ipAddress || '—' }}</td>
+                <td style="padding: 8px 10px; color: var(--ink-2);">{{ log.details || '—' }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -111,7 +159,7 @@
 import { ref, onMounted, onUnmounted } from 'vue';
 import { useAuth } from '../composables/useAuth';
 import { api } from '../api/client';
-import { UserRound, Loader2, Eye, EyeOff } from 'lucide-vue-next';
+import { UserRound, Loader2, Eye, EyeOff, RefreshCw } from 'lucide-vue-next';
 
 const { user, updateProfile } = useAuth();
 
@@ -137,14 +185,15 @@ const hydrate = () => {
     formEmail.value = user.value.email || '';
     formPhone.value = '';
     formAvatar.value = user.value.avatarUrl || '';
+    avatarSrc.value = user.value.avatarUrl || '';
   }
 };
+
+const avatarSrc = ref(user.value?.avatarUrl || '');
 
 onMounted(hydrate);
 onMounted(() => window.addEventListener('badge:auth-changed', hydrate));
 onUnmounted(() => window.removeEventListener('badge:auth-changed', hydrate));
-
-const avatarSrc = ref(user.value?.avatarUrl || '');
 
 const saveProfile = async () => {
   savingProfile.value = true;
@@ -158,12 +207,44 @@ const saveProfile = async () => {
     });
     profileMsg.value = '资料已更新';
     formPhone.value = '';
+    avatarSrc.value = formAvatar.value.trim() || '';
   } catch (err) {
     profileError.value = err.message || '更新失败，请稍后再试';
   } finally {
     savingProfile.value = false;
   }
 };
+
+const myLogs = ref([]);
+const loadingLogs = ref(false);
+
+const formatAction = (action) => {
+  const map = {
+    LOGIN_SUCCESS: '登录成功',
+    LOGIN_FAILED: '登录失败',
+    SSO_LOGIN_SUCCESS: '单点登录',
+    SSO_AUTHORIZE: 'SSO授权',
+    PASSWORD_CHANGE: '修改密码',
+    PROFILE_UPDATE: '更新资料',
+    REGISTER: '注册'
+  };
+  return map[action] || action;
+};
+
+const loadMyLogs = async () => {
+  if (!user.value) return;
+  loadingLogs.value = true;
+  try {
+    const res = await api.get('/api/audit/my-logs');
+    myLogs.value = res.data || [];
+  } catch (err) {
+    console.warn('获取个人活动日志失败:', err);
+  } finally {
+    loadingLogs.value = false;
+  }
+};
+
+onMounted(loadMyLogs);
 
 const savePassword = async () => {
   pwdMsg.value = '';
@@ -232,11 +313,11 @@ const formatDate = (dateStr) => {
 
 .identity-avatar img { width: 100%; height: 100%; object-fit: cover; }
 
-.avatar-letter { font-size: 26px; font-weight: 700; color: var(--accent-ink); }
+.avatar-letter { font-size: 28px; font-weight: 750; color: var(--accent-ink); }
 
-.identity-name { font-size: 17px; font-weight: 700; }
+.identity-name { font-size: 19px; font-weight: 750; color: var(--ink); }
 
-.identity-mail { font-size: 13px; color: var(--ink-3); word-break: break-all; }
+.identity-mail { font-size: 14px; color: var(--ink-2); word-break: break-all; }
 
 .identity-badges {
   display: flex;
@@ -246,9 +327,9 @@ const formatDate = (dateStr) => {
   justify-content: center;
 }
 
-.pad { padding: 16px; }
+.pad { padding: 20px; }
 
-.section-title { font-size: 14px; font-weight: 650; margin-bottom: 16px; }
+.section-title { font-size: 16px; font-weight: 700; margin-bottom: 18px; color: var(--ink); }
 
 .fields { display: flex; flex-direction: column; gap: 14px; }
 

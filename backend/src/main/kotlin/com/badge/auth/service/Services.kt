@@ -552,6 +552,15 @@ class SsoService(
         profile.lastLoginAt = LocalDateTime.now()
         userAppProfileRepository.save(profile)
 
+        auditLogService.log(
+            userId = user.id,
+            username = user.username,
+            action = "SSO_LOGIN_SUCCESS",
+            clientId = app.clientId,
+            status = "SUCCESS",
+            details = "子应用成功换票登录：${app.appName} (${app.clientId})"
+        )
+
         // Issue App-Scoped Token
         val scopedToken = tokenProvider.generateScopedAppToken(
             user.id!!,
@@ -604,6 +613,25 @@ class AuditLogService(
             details = details
         )
         auditLogRepository.save(entry)
+    }
+
+    @Transactional(readOnly = true)
+    fun getUserLogs(username: String): List<AuditLogDto> {
+        val user = userRepository.findByUsername(username).orElse(null) ?: return emptyList()
+        return auditLogRepository.findTop50ByUserIdOrderByCreatedAtDesc(user.id!!).map {
+            AuditLogDto(
+                id = it.id!!,
+                userId = it.userId,
+                username = it.username,
+                action = it.action,
+                clientId = it.clientId,
+                ipAddress = it.ipAddress,
+                userAgent = it.userAgent,
+                status = it.status,
+                details = it.details,
+                createdAt = it.createdAt
+            )
+        }
     }
 
     @Transactional(readOnly = true)

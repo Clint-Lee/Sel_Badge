@@ -9,10 +9,20 @@ const { code } = await transformWithOxc(
   filename.pathname,
   { lang: "ts" },
 );
-const { groupOffers, filterOffers, sortOffers, safeLink, emptyPreferences } =
-  await import(
-    `data:text/javascript;base64,${Buffer.from(code).toString("base64")}`
-  );
+const {
+  groupOffers,
+  filterOffers,
+  sortOffers,
+  safeLink,
+  emptyPreferences,
+  amountYuan,
+  hostName,
+  siteInitial,
+  shuffleBy,
+  isPinned,
+  priceNumber,
+} = await import(`data:text/javascript;base64,${Buffer.from(code).toString("base64")}`);
+
 const offer = (values = {}) => ({
   id: "1",
   groupId: "exact-spec",
@@ -110,5 +120,37 @@ test("price sorting groups currencies and stock sorting places unknown counts la
   assert.deepEqual(
     sortOffers(rows, "stock").map((x) => x.stock),
     [3, 1, null],
+  );
+});
+
+test("relay offer amounts convert from cents without rounding drift", () => {
+  assert.equal(amountYuan(500), "5.00");
+  assert.equal(amountYuan(101), "1.01");
+  assert.equal(priceNumber(7.88), "7.88");
+});
+
+test("site helpers fall back safely for unusable urls", () => {
+  assert.equal(hostName("https://www.example.com/a"), "example.com");
+  assert.equal(hostName("nonsense"), "网址不可用");
+  assert.equal(siteInitial("忆のAI", "https://yicode.ai"), "忆");
+  assert.equal(siteInitial("", "https://www.demo.dev/x"), "D");
+});
+
+test("shuffle is deterministic per seed and preserves every item", () => {
+  const sites = Array.from({ length: 12 }, (_, index) => ({ id: `s${index}` }));
+  const first = shuffleBy(sites, "seed-a", (site) => site.id).map((x) => x.id);
+  const again = shuffleBy(sites, "seed-a", (site) => site.id).map((x) => x.id);
+  const other = shuffleBy(sites, "seed-b", (site) => site.id).map((x) => x.id);
+  assert.deepEqual(first, again);
+  assert.notDeepEqual(first, other);
+  assert.deepEqual([...first].sort(), sites.map((x) => x.id).sort());
+});
+
+test("sponsor pin only counts while the expiry is in the future", () => {
+  assert.equal(isPinned({ sponsorPinUntil: null }), false);
+  assert.equal(isPinned({ sponsorPinUntil: "2000-01-01T00:00:00Z" }), false);
+  assert.equal(
+    isPinned({ sponsorPinUntil: new Date(Date.now() + 60000).toISOString() }),
+    true,
   );
 });
