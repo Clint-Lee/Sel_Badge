@@ -1,0 +1,28 @@
+[DEFAULT]
+bantime = 1d
+findtime = 10m
+maxretry = 5
+
+[sshd]
+enabled = true
+port = ssh
+maxretry = 3
+findtime = 10m
+bantime = 24h
+
+[nginx-limit-req]
+enabled = true
+port = http,https,100,101,102
+filter = nginx-limit-req
+logpath = /var/log/nginx/error.log
+findtime = 10m
+maxretry = 10
+bantime = 2h
+
+[nginx-botsearch]
+enabled = true
+port = http,https,100,101,102
+filter = nginx-botsearch
+logpath = /var/log/nginx/access.log
+maxretry = 2
+bantime = 2d

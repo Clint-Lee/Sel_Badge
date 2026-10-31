@@ -1,0 +1,19 @@
+[Unit]
+Description=Badge Auth Platform Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/srv/repo/Sel_Badge/backend
+Environment=BADGE_JWT_SECRET=BadgeAuthSuperSecureJWTSecretKeyWithMinimum256BitsLengthForProduction2026!
+Environment=BADGE_CRYPTO_MASTER_KEY=BadgeAuthPlatformSecureMasterKeyAES256@2026!!
+Environment=BADGE_CORS_ORIGINS=http://39.97.50.218,http://39.97.50.218:100,http://39.97.50.218:101,http://39.97.50.218:102,http://localhost:100,http://localhost:101,http://localhost:102,http://localhost:5173,http://127.0.0.1:5173,http://39.97.50.218:8080
+ExecStart=/usr/bin/java -Xms128m -Xmx256m -XX:+UseG1GC -jar /srv/repo/Sel_Badge/backend/target/badge-auth-platform-1.0.0.jar
+Restart=always
+RestartSec=5
+StandardOutput=append:/var/log/badge-backend.log
+StandardError=append:/var/log/badge-backend.err.log
+
+[Install]
+WantedBy=multi-user.target
