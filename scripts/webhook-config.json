@@ -1,15 +1,17 @@
 {
   "listen": "127.0.0.1",
   "port": 9000,
-  "secret": "069af7924c164a882f081daf5c76230a5e0bcdc3a8f366d1a03151363002859f",
+  "secret_file": "/etc/antigravity/webhook.secret",
   "script": "/etc/webhook-deploy/deploy.sh",
   "log_dir": "/var/log/webhook-deploy",
   "projects": {
     "badge": {
+      "repository": "Libaoyun/Sel_Badge",
       "dir": "/srv/repo/Sel_Badge",
       "branch": "main"
     },
     "xiyou": {
+      "repository": "Libaoyun/XiYouOnline",
       "dir": "/srv/repo/XiYouOnline",
       "branch": "develop"
     },
@@ -26,6 +28,7 @@
       "branch": "video_fetch"
     },
     "media-tools-hot": {
+      "repository": "Clint-Lee/Media_Tools",
       "dir": "/srv/repo/Media_Tools_Hot",
       "branch": "hotVideo"
     }
