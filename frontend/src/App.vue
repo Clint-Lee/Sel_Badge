@@ -102,6 +102,7 @@ watch(() => route.path, () => { drawerOpen.value = false; });
 
 const tabs = [
   { path: '/', label: '应用' },
+  { path: '/dashboard', label: '控制台大屏' },
   { path: '/tools', label: 'AI工具' },
   { path: '/suppliers', label: '低价库' },
   { path: '/sso', label: '开发者控制台' },

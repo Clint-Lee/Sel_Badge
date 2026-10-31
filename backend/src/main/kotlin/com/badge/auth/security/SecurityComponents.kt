@@ -14,6 +14,8 @@ import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
+import org.springframework.core.env.Environment
+import org.springframework.core.env.Profiles
 import org.springframework.http.HttpMethod
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity
@@ -205,6 +207,13 @@ class SecurityConfig(
                 headers.frameOptions { it.sameOrigin() }
             }
             .sessionManagement { it.sessionCreationPolicy(SessionCreationPolicy.STATELESS) }
+            .exceptionHandling { exceptions ->
+                exceptions.authenticationEntryPoint { _, response, _ ->
+                    response.status = HttpServletResponse.SC_UNAUTHORIZED
+                    response.contentType = "application/json;charset=UTF-8"
+                    response.writer.write("""{"code":401,"message":"请先登录或会话已过期","data":null}""")
+                }
+            }
             .authorizeHttpRequests { auth ->
                 auth
                     // 门户公开只读：分类、站点目录、站点详情、评价、报价快照与选品台。
@@ -263,8 +272,20 @@ class SecurityConfig(
  * 此前该配置项没有任何消费者（CryptoUtils 硬编码默认值），改配置不会真正换钥。
  */
 @Component
-class CryptoKeyInitializer(@Value("\${badge.crypto.master-key}") masterKey: String) {
+class CryptoKeyInitializer(
+    @Value("\${badge.crypto.master-key}") masterKey: String,
+    @Value("\${badge.jwt.secret}") jwtSecret: String,
+    environment: Environment
+) {
     init {
+        if (environment.acceptsProfiles(Profiles.of("prod"))) {
+            require(masterKey.length >= 32 && !masterKey.startsWith("BadgeAuthPlatform")) {
+                "Production requires an independent AES master key"
+            }
+            require(jwtSecret.length >= 32 && !jwtSecret.startsWith("BadgeAuthSuper")) {
+                "Production requires an independent JWT signing key"
+            }
+        }
         CryptoUtils.initKey(masterKey)
         if (masterKey.startsWith("BadgeAuthPlatform")) {
             println("[Badge] 警告：正在使用内置开发默认主密钥；生产环境（mysql profile）必须配置 BADGE_CRYPTO_MASTER_KEY。")

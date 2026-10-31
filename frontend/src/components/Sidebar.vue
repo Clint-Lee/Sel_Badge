@@ -11,6 +11,11 @@
         <LayoutGrid :size="16" stroke-width="1.9" />
         <span>应用</span>
       </router-link>
+      <router-link to="/dashboard" class="side-link" :class="{ active: isActive('/dashboard') }" @click="navigate">
+        <BarChart3 :size="16" stroke-width="1.9" />
+        <span>控制台大屏</span>
+        <span class="side-live-badge">LIVE</span>
+      </router-link>
       <router-link to="/personas" class="side-link" :class="{ active: isActive('/personas') }" @click="navigate">
         <IdCard :size="16" stroke-width="1.9" />
         <span>应用画像</span>
@@ -63,7 +68,7 @@
 import { computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useAuth } from '../composables/useAuth';
-import { Plus, LogOut, LayoutGrid, IdCard, Terminal, BookOpen, Activity, Sparkles, Tags } from 'lucide-vue-next';
+import { Plus, LogOut, LayoutGrid, BarChart3, IdCard, Terminal, BookOpen, Activity, Sparkles, Tags } from 'lucide-vue-next';
 
 defineProps({
   open: { type: Boolean, default: false },
@@ -140,6 +145,20 @@ const handleLogout = () => {
   background: var(--accent-tint);
   color: var(--accent-ink);
   font-weight: 700;
+}
+
+.side-live-badge {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  letter-spacing: 0.05em;
+  line-height: 1.4;
 }
 
 .side-bottom {

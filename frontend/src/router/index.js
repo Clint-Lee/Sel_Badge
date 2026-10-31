@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 const routes = [
   { path: '/', name: 'apps', component: () => import('../components/AppsHub.vue') },
   { path: '/apps', redirect: '/' },
+  { path: '/dashboard', name: 'dashboard', component: () => import('../views/PlatformDashboard.vue') },
   { path: '/tools', name: 'tools', component: () => import('../views/tools/Index.vue') },
   { path: '/suppliers', name: 'suppliers', component: () => import('../views/suppliers/Index.vue') },
   // 登录页使用独立全屏布局（meta.bare：隐藏导航与页脚）

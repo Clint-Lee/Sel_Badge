@@ -58,10 +58,10 @@ class PortalIntegrationTest {
         mvc.perform(get("/api/portal/stats")).andExpect(status().isOk)
             .andExpect(jsonPath("$.data.sites").isNumber)
         // 联系方式与偏好必须登录，且联系方式按站点单独读取。
-        mvc.perform(get("/api/portal/preferences")).andExpect(status().isForbidden)
-        mvc.perform(get("/api/portal/sites/not-a-site/contact")).andExpect(status().isForbidden)
+        mvc.perform(get("/api/portal/preferences")).andExpect(status().isUnauthorized)
+        mvc.perform(get("/api/portal/sites/not-a-site/contact")).andExpect(status().isUnauthorized)
         mvc.perform(post("/api/portal/submissions").contentType(MediaType.APPLICATION_JSON).content("{}"))
-            .andExpect(status().isForbidden)
+            .andExpect(status().isUnauthorized)
     }
 
     @Test
@@ -102,7 +102,7 @@ class PortalIntegrationTest {
         val id = mapper.readTree(result.response.contentAsByteArray).path("data").path("id").asText()
         assertFalse(PortalService(store).sites().any { it.id == id })
         // 联系方式只在登录后按站点读取，目录里只暴露 hasContact 标记。
-        mvc.perform(get("/api/portal/sites/$id/contact")).andExpect(status().isForbidden)
+        mvc.perform(get("/api/portal/sites/$id/contact")).andExpect(status().isUnauthorized)
         mvc.perform(get("/api/portal/sites/$id/contact").with(user("someone"))).andExpect(status().isNotFound)
         mvc.perform(get("/api/portal/submissions").with(user("unrelated"))).andExpect(status().isOk)
             .andExpect(jsonPath("$.data").isEmpty)

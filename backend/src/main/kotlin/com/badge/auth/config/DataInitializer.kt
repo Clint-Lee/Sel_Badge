@@ -11,11 +11,13 @@ import org.slf4j.LoggerFactory
 import org.springframework.boot.CommandLineRunner
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
+import org.springframework.core.env.Environment
+import org.springframework.core.env.Profiles
 import org.springframework.security.crypto.password.PasswordEncoder
 import java.time.LocalDateTime
 
 @Configuration
-class DataInitializer {
+class DataInitializer(private val environment: Environment) {
 
     private val log: Logger = LoggerFactory.getLogger(DataInitializer::class.java)
 
@@ -26,6 +28,10 @@ class DataInitializer {
         userAppProfileRepository: UserAppProfileRepository,
         passwordEncoder: PasswordEncoder
     ): CommandLineRunner = CommandLineRunner {
+        if (environment.acceptsProfiles(Profiles.of("prod"))) {
+            log.info("Production uses provisioned identities and applications; development seeds are disabled.")
+            return@CommandLineRunner
+        }
         log.info("Checking and initializing default identity and application data...")
 
         // 1. Seed Registered Sub-Applications
